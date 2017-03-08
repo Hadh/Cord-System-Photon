@@ -3,15 +3,11 @@ var mongoose = require('mongoose');
 var router = express.Router();
 
 
-/*
-*  Request commutes for users
-*  @param : Source position , Destination
-*  @return : possible commutes.
-*  Api URL :Get /Commute?source=Lat,Lng&dest=Lat,Lng
-*/
 
 router.get('/',function(req,res,next){
-    
+    mongoose.model('commutes').find(function(err,commutes){
+        res.json(commutes);
+    })
 });
 
 
