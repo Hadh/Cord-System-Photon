@@ -21,6 +21,7 @@ router.get('/near',function (req,res,next) {
     console.error(err);
     res.end();
   });
+
 });
 
 module.exports = router;
