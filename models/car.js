@@ -1,10 +1,11 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+mongoose.Promise = global.Promise;
 
 var carSchema = new Schema({
-  "name" : String,
-  "position" :{
+  "carname" : String,
+  "coords" :{
     "type" : {
       type : String,
       default: "Feature"
@@ -15,6 +16,9 @@ var carSchema = new Schema({
         default : "Point"
       },
       "coordinates": [Number]
+    },
+    "properties":{
+      "name" : String
     }
   },
   "energylvl" : Number,
@@ -30,7 +34,10 @@ var carSchema = new Schema({
     type : Boolean,
     default: true
   },
-  // parking_spot_id int
+  // "parking_spot_id" :{
+  //   type: Schema.ObjectId
+  //   ref : "parkings"
+  // },
   "isdeleted" : {
     type : Boolean,
     default : false

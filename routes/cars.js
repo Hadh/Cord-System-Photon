@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
+var carService = require('../services/car.service');
 
-/* GET users listing. */
 router.get('/', function(req, res, next) {
   mongoose.model('cars').find(function(err,cars){
     res.json(cars);
@@ -14,21 +14,13 @@ router.get('/near',function (req,res,next) {
   var lng = req.query.lng;
   console.log('lat', lat);
   console.log('lng', lng);
-      mongoose.model('cars').find({
-        "coords.geometry": {
-            $near: {
-                $geometry: {
-                    type: "Point",
-                    coordinates: [lng,lat]
-                },
-                $maxDistance: 2000
-            }
-        }
-    },function(err,cars){
-      res.json(cars);
-      console.log(cars.length);
-
-    });
+  carService.getGetNearstCars(lng,lat,2000).then(function(data){
+    //console.info(data);
+    res.json(data);
+  },function(err){
+    console.error(err);
+    res.end();
+  });
 });
 
 module.exports = router;
