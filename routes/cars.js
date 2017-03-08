@@ -25,8 +25,9 @@ router.get('/near',function (req,res,next) {
             }
         }
     },function(err,cars){
-      res.json(cars);
+      res.json(cars.slice(0,3)); // gets the first 3 cars 
       console.log(cars.length);
+      console.log(cars.slice(0,3));
 
     });
 });

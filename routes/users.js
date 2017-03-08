@@ -9,4 +9,12 @@ router.get('/', function(req, res, next) {
   })
 });
 
+router.get('/user', function(req, res){
+  var name = req.query.name;
+  mongoose.model('users').findOne({ 'name': name },function(err,users){
+    //res.json(users);
+    res.render('user.twig',{users:users});
+  });
+});
+
 module.exports = router;
