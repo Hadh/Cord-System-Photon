@@ -1,0 +1,1802 @@
+[
+	{
+		"id": "12b79a49-3522-4261-8df0-f84e4fbc79c7",
+		"carname": "nemo",
+		"energylvl": "867.00",
+		"available": false,
+		"commute_id": "9e4700c5-de96-4c93-807f-abca7f00bf29",
+		"parked": true,
+		"parking_spot_id": "075a734e-2f66-470b-9e44-e8bd018d8cbb",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-14.1321"
+			},
+			{
+				"longitude": "-46.5545"
+			}
+		]
+	},
+	{
+		"id": "b7a6a0c3-513a-46ba-871c-44e2adee6452",
+		"carname": "rerum",
+		"energylvl": "752.00",
+		"available": true,
+		"commute_id": "378a4967-2088-41f7-b7e1-3b26221d1d43",
+		"parked": true,
+		"parking_spot_id": "8fd1eeaf-86df-4936-838f-bb7e38c621b8",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-47.0027"
+			},
+			{
+				"longitude": "-133.2995"
+			}
+		]
+	},
+	{
+		"id": "86d3cb53-9607-4a4e-87cd-4972604eb136",
+		"carname": "provident",
+		"energylvl": "437.00",
+		"available": false,
+		"commute_id": "c294ef4c-e17b-491c-9789-8127cef76fd1",
+		"parked": true,
+		"parking_spot_id": "28089b0d-efe5-477c-8eee-7fc6ec3a539f",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-52.2940"
+			},
+			{
+				"longitude": "163.6968"
+			}
+		]
+	},
+	{
+		"id": "7ecde97a-1cf4-4cca-be91-8ae00baddd02",
+		"carname": "aspernatur",
+		"energylvl": "591.00",
+		"available": false,
+		"commute_id": "b7117169-8add-4566-a8e3-5eaab4709e09",
+		"parked": true,
+		"parking_spot_id": "d542a157-874c-4112-b71c-52286dd9a4ef",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "21.0747"
+			},
+			{
+				"longitude": "151.2719"
+			}
+		]
+	},
+	{
+		"id": "7e12d89e-39e4-4b05-88f7-cd65d324c285",
+		"carname": "beatae",
+		"energylvl": "21.00",
+		"available": false,
+		"commute_id": "38249887-8767-4e5a-a26b-e5cbcaed1253",
+		"parked": false,
+		"parking_spot_id": "d49b97fc-8653-42f6-a1b5-a426e26efa25",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "7.6156"
+			},
+			{
+				"longitude": "121.5350"
+			}
+		]
+	},
+	{
+		"id": "8999e5df-aaf3-47a9-8197-5a13e770adc8",
+		"carname": "adipisci",
+		"energylvl": "163.00",
+		"available": true,
+		"commute_id": "af4a3e0e-e713-41c3-81f3-3f91d5590964",
+		"parked": false,
+		"parking_spot_id": "92682338-ffe1-4dd8-9c1a-e00385f2f10a",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "22.9221"
+			},
+			{
+				"longitude": "104.2143"
+			}
+		]
+	},
+	{
+		"id": "dffcb759-7872-4c6a-9c35-d0270a98d736",
+		"carname": "ab",
+		"energylvl": "930.00",
+		"available": true,
+		"commute_id": "4087c543-6dba-446a-8b3b-e01399737444",
+		"parked": true,
+		"parking_spot_id": "107493cb-965a-40bd-b43f-f58db52df92d",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "25.2197"
+			},
+			{
+				"longitude": "-77.0756"
+			}
+		]
+	},
+	{
+		"id": "5683de4e-bc8f-4265-a046-6d8440c81ad9",
+		"carname": "magnam",
+		"energylvl": "481.00",
+		"available": false,
+		"commute_id": "34daf392-3672-4d5d-b5b3-122569d4a038",
+		"parked": true,
+		"parking_spot_id": "eadd2ba0-0bc8-4201-bcc7-69e7094810a4",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "38.0368"
+			},
+			{
+				"longitude": "-21.3130"
+			}
+		]
+	},
+	{
+		"id": "ed8b4a1d-ea40-46d4-bf4e-74cb895f9aed",
+		"carname": "sunt",
+		"energylvl": "695.00",
+		"available": false,
+		"commute_id": "953fb67b-3922-420a-aa30-404d12c9648f",
+		"parked": true,
+		"parking_spot_id": "e4b72f46-d3c5-41c1-9d47-d1d79318174d",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "68.3332"
+			},
+			{
+				"longitude": "68.5490"
+			}
+		]
+	},
+	{
+		"id": "6866ddd2-c24f-4440-80e8-ee89ca080d94",
+		"carname": "unde",
+		"energylvl": "726.00",
+		"available": true,
+		"commute_id": "94b1895b-9ac2-4f70-8093-2a37e1f3463a",
+		"parked": true,
+		"parking_spot_id": "d790ba73-f9c3-488c-bc17-d22db01e09fe",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "10.6870"
+			},
+			{
+				"longitude": "-33.5808"
+			}
+		]
+	},
+	{
+		"id": "145381de-4798-4f96-9690-369415b42e85",
+		"carname": "a",
+		"energylvl": "3.00",
+		"available": true,
+		"commute_id": "aea17211-0b60-4e4a-8129-4ddd41aef0c7",
+		"parked": true,
+		"parking_spot_id": "8692adb0-b3ae-4c2d-b798-068adb907692",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "29.1925"
+			},
+			{
+				"longitude": "120.9233"
+			}
+		]
+	},
+	{
+		"id": "93a68fc6-a820-426c-9250-58fa20817e8c",
+		"carname": "non",
+		"energylvl": "262.00",
+		"available": false,
+		"commute_id": "a4337989-51fb-4f8d-85c6-c286f9919dd2",
+		"parked": true,
+		"parking_spot_id": "1a89f773-3d77-4cce-ad29-eddab6e91cdc",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-38.1695"
+			},
+			{
+				"longitude": "-105.8268"
+			}
+		]
+	},
+	{
+		"id": "6cf91ddc-5d9f-4c7c-8024-65a24398aec5",
+		"carname": "molestiae",
+		"energylvl": "492.00",
+		"available": false,
+		"commute_id": "536eb03d-ce65-44a6-84f9-d49305cf9b13",
+		"parked": false,
+		"parking_spot_id": "47b86f45-0e90-4285-b1c7-34d3d5d4077f",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-56.4792"
+			},
+			{
+				"longitude": "41.5855"
+			}
+		]
+	},
+	{
+		"id": "a8544440-1a71-4d54-9dff-95cebd779f65",
+		"carname": "minima",
+		"energylvl": "318.00",
+		"available": false,
+		"commute_id": "c51f61f6-fb3a-4352-a03c-2f10b9636fe0",
+		"parked": true,
+		"parking_spot_id": "4cda1fbe-6961-460d-b188-56dad09ee20d",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-62.0246"
+			},
+			{
+				"longitude": "-29.0790"
+			}
+		]
+	},
+	{
+		"id": "1dc030f5-eef8-4fb9-b2d9-66fb74e181b6",
+		"carname": "eveniet",
+		"energylvl": "563.00",
+		"available": false,
+		"commute_id": "6fa05ff1-baec-4a7c-97f0-ab9796d9bd10",
+		"parked": true,
+		"parking_spot_id": "4d04e9f6-219f-492d-984f-d1b9a68b07dc",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "5.3635"
+			},
+			{
+				"longitude": "20.9265"
+			}
+		]
+	},
+	{
+		"id": "72505bc2-2857-4a41-87ce-3b6019b840da",
+		"carname": "rerum",
+		"energylvl": "772.00",
+		"available": false,
+		"commute_id": "0bcbae8d-ee00-45e0-b7a1-f1fe721a7e90",
+		"parked": true,
+		"parking_spot_id": "63bb3d41-4ffe-4666-8c4c-48af87620ee5",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-28.0197"
+			},
+			{
+				"longitude": "-50.2514"
+			}
+		]
+	},
+	{
+		"id": "c87fb2bf-141d-4411-b292-f997a2f4e695",
+		"carname": "nihil",
+		"energylvl": "108.00",
+		"available": true,
+		"commute_id": "4ed15d49-cae9-40f1-9ec6-aa4221820b51",
+		"parked": false,
+		"parking_spot_id": "2bc015a5-6727-421f-bd87-95f31c6e597f",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-38.7166"
+			},
+			{
+				"longitude": "-129.2452"
+			}
+		]
+	},
+	{
+		"id": "33f79f12-379c-4522-bd9d-c56e981fdcce",
+		"carname": "maiores",
+		"energylvl": "742.00",
+		"available": true,
+		"commute_id": "69b2a247-2b64-44b7-8c71-a8cf519efede",
+		"parked": true,
+		"parking_spot_id": "695c357d-8590-44f8-99cd-fd26a5fbd50c",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "84.4589"
+			},
+			{
+				"longitude": "29.3206"
+			}
+		]
+	},
+	{
+		"id": "e9e3e3b0-9ba3-4a7a-a8e9-4b31d957bb44",
+		"carname": "quia",
+		"energylvl": "767.00",
+		"available": false,
+		"commute_id": "35fed7af-141c-433c-bccb-5cad74db7613",
+		"parked": true,
+		"parking_spot_id": "c4144aa9-4192-4568-af30-23622da08179",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-6.2135"
+			},
+			{
+				"longitude": "-49.1942"
+			}
+		]
+	},
+	{
+		"id": "7ab30865-1b1d-44f3-9c30-e67fa501b9d0",
+		"carname": "aut",
+		"energylvl": "661.00",
+		"available": false,
+		"commute_id": "67c53f97-780d-4c6d-b520-78fd82d993d2",
+		"parked": true,
+		"parking_spot_id": "ed87734f-4910-48aa-b508-fa7005fb497d",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-50.0646"
+			},
+			{
+				"longitude": "23.5185"
+			}
+		]
+	},
+	{
+		"id": "87df01e5-1dfc-4a25-9452-ac01bb006774",
+		"carname": "alias",
+		"energylvl": "445.00",
+		"available": false,
+		"commute_id": "ff198a56-18c4-46a7-8393-1b3ac4ce7788",
+		"parked": false,
+		"parking_spot_id": "dd5c6a51-aab0-48a2-8d0e-386d9c12790f",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "38.7787"
+			},
+			{
+				"longitude": "106.7796"
+			}
+		]
+	},
+	{
+		"id": "9cb3a190-bfc3-482a-9aee-37c971bdadc2",
+		"carname": "fuga",
+		"energylvl": "203.00",
+		"available": false,
+		"commute_id": "ebd1df4e-0b7d-44df-b1b0-8e60e4020e6c",
+		"parked": false,
+		"parking_spot_id": "d55fabbf-3808-4eee-8a3d-1258f23c0858",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "30.5372"
+			},
+			{
+				"longitude": "145.5395"
+			}
+		]
+	},
+	{
+		"id": "5bd33d8a-4c84-48f3-91ff-afa4408bdbe7",
+		"carname": "fugit",
+		"energylvl": "812.00",
+		"available": false,
+		"commute_id": "1548a8cd-0749-4e66-a686-9bd05e6b2cd6",
+		"parked": true,
+		"parking_spot_id": "1259f822-35f3-44f8-981f-33751d9a12d7",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "66.9209"
+			},
+			{
+				"longitude": "-49.6814"
+			}
+		]
+	},
+	{
+		"id": "7ea54b37-9f0b-45ba-859a-28435c416bc9",
+		"carname": "sunt",
+		"energylvl": "935.00",
+		"available": true,
+		"commute_id": "12a76fac-dab0-4dd5-b195-6420257b864a",
+		"parked": true,
+		"parking_spot_id": "8122fb10-0620-48f3-851f-1b0687fb4481",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "63.5849"
+			},
+			{
+				"longitude": "62.2458"
+			}
+		]
+	},
+	{
+		"id": "9b971d5f-9226-4147-bf98-33f6523d3d5c",
+		"carname": "maxime",
+		"energylvl": "101.00",
+		"available": true,
+		"commute_id": "9dc91bb4-3e22-4886-acaf-b3d5af8e36b6",
+		"parked": false,
+		"parking_spot_id": "0348cbce-588c-4ab0-b6ac-296f3e03de28",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-6.0481"
+			},
+			{
+				"longitude": "43.4898"
+			}
+		]
+	},
+	{
+		"id": "3ff967cd-3d1c-4f4b-ab2f-0f8f94a995e5",
+		"carname": "maxime",
+		"energylvl": "577.00",
+		"available": true,
+		"commute_id": "b667b9e0-5adc-48a2-af1d-83f94d6653bc",
+		"parked": true,
+		"parking_spot_id": "b5f1b4e2-9fbc-4e4a-b3fe-ae6869ea621f",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "21.8149"
+			},
+			{
+				"longitude": "-49.3331"
+			}
+		]
+	},
+	{
+		"id": "63b33350-c341-4be9-a7d9-2abc033e7c2f",
+		"carname": "qui",
+		"energylvl": "540.00",
+		"available": false,
+		"commute_id": "e3a8ef49-7a19-460a-91df-20ee1498fa3b",
+		"parked": false,
+		"parking_spot_id": "4bbe501b-9bf1-48a4-81fc-619cee2d5d48",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-20.7415"
+			},
+			{
+				"longitude": "31.5677"
+			}
+		]
+	},
+	{
+		"id": "30b3423d-cb1f-4773-98bb-43f79f5e5e6c",
+		"carname": "voluptatem",
+		"energylvl": "86.00",
+		"available": true,
+		"commute_id": "4ec97c79-264a-4dcc-bb41-f39b42cf1df9",
+		"parked": true,
+		"parking_spot_id": "3170393a-926f-4bcb-bb7c-3b3d6e8a70df",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-26.0889"
+			},
+			{
+				"longitude": "99.5811"
+			}
+		]
+	},
+	{
+		"id": "7aa8d184-7ef1-4c4c-af2a-57072b21bf1f",
+		"carname": "sit",
+		"energylvl": "411.00",
+		"available": false,
+		"commute_id": "5ae65047-d95c-43c6-bc87-7976392f9373",
+		"parked": true,
+		"parking_spot_id": "eb02452d-dcd3-4a03-b2e2-197517302a5c",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "21.1112"
+			},
+			{
+				"longitude": "-122.1702"
+			}
+		]
+	},
+	{
+		"id": "72ea9c6b-6520-445f-b2d7-18b6c90213e1",
+		"carname": "neque",
+		"energylvl": "207.00",
+		"available": false,
+		"commute_id": "86ce3a88-6c78-4312-9160-8b49459e0a23",
+		"parked": false,
+		"parking_spot_id": "8457c29e-1299-4407-b932-b298cd230a90",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "4.8107"
+			},
+			{
+				"longitude": "121.9967"
+			}
+		]
+	},
+	{
+		"id": "d74328df-3b3d-46e7-b51d-3b0fd967db70",
+		"carname": "reiciendis",
+		"energylvl": "36.00",
+		"available": false,
+		"commute_id": "7d960464-0c5b-4a97-a8d4-cb37149ecf14",
+		"parked": false,
+		"parking_spot_id": "dfeaa4d3-10e6-4165-a576-34c0b0fb8626",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-73.4707"
+			},
+			{
+				"longitude": "92.2638"
+			}
+		]
+	},
+	{
+		"id": "fe7ab710-9616-43da-a2ec-1e7a5eba31dd",
+		"carname": "nihil",
+		"energylvl": "486.00",
+		"available": false,
+		"commute_id": "2c03dd8d-17a3-456c-86e1-5d17d3a3335a",
+		"parked": false,
+		"parking_spot_id": "8bf12615-358a-49c8-b369-23429c003739",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-36.5678"
+			},
+			{
+				"longitude": "-176.0104"
+			}
+		]
+	},
+	{
+		"id": "d1632952-25ab-4b48-a278-58af52d8ab8e",
+		"carname": "ut",
+		"energylvl": "918.00",
+		"available": true,
+		"commute_id": "c91842e4-3e5b-4a11-8ad4-15cecd8321a6",
+		"parked": false,
+		"parking_spot_id": "264b730f-2199-4384-ba9f-e81f12877370",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "18.9702"
+			},
+			{
+				"longitude": "62.9987"
+			}
+		]
+	},
+	{
+		"id": "13222ab6-61db-45b5-9b32-1fd42fa5ca5c",
+		"carname": "sint",
+		"energylvl": "54.00",
+		"available": false,
+		"commute_id": "29e9a3cb-0f7e-45f2-a8c7-e216a81a47c1",
+		"parked": true,
+		"parking_spot_id": "25cb2d78-323c-4dae-8fb6-e9977f2117e3",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-19.0190"
+			},
+			{
+				"longitude": "-72.6935"
+			}
+		]
+	},
+	{
+		"id": "b7eb6aa8-40b0-4899-868e-55bc69cdc6a2",
+		"carname": "laborum",
+		"energylvl": "730.00",
+		"available": true,
+		"commute_id": "b362d521-af8b-45a5-b08a-e89e002734fa",
+		"parked": true,
+		"parking_spot_id": "59780c5e-f120-4ee3-a4ba-1042fb562f82",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-45.9264"
+			},
+			{
+				"longitude": "-77.1946"
+			}
+		]
+	},
+	{
+		"id": "a031baf5-fa55-40ad-be4d-28b5a0ab97d1",
+		"carname": "reprehenderit",
+		"energylvl": "444.00",
+		"available": true,
+		"commute_id": "3fd6c68c-4002-42a6-a7a4-0f677f54d956",
+		"parked": true,
+		"parking_spot_id": "ff83a3e7-7891-4a31-8a4e-a594e8ea4498",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-43.0967"
+			},
+			{
+				"longitude": "139.9758"
+			}
+		]
+	},
+	{
+		"id": "c32960fe-5b62-4c3c-9e3a-0024245c816d",
+		"carname": "cumque",
+		"energylvl": "144.00",
+		"available": false,
+		"commute_id": "9c5a7195-1b06-469d-9516-c7ec3bc81714",
+		"parked": false,
+		"parking_spot_id": "28b76952-9cab-4134-9a87-e84888c4aea8",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "21.5035"
+			},
+			{
+				"longitude": "79.2938"
+			}
+		]
+	},
+	{
+		"id": "521c0f6f-3e9b-479c-8d79-913bc6b08073",
+		"carname": "facilis",
+		"energylvl": "416.00",
+		"available": true,
+		"commute_id": "f6bd9569-f60a-4f70-b2a3-e13f6a49e8f4",
+		"parked": true,
+		"parking_spot_id": "21201e19-ea54-4748-be0b-879ff97b68ee",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "48.6153"
+			},
+			{
+				"longitude": "-135.9428"
+			}
+		]
+	},
+	{
+		"id": "1ba2a559-777f-4be2-88ab-42acd71c2198",
+		"carname": "et",
+		"energylvl": "909.00",
+		"available": true,
+		"commute_id": "15e20e8a-0632-480c-b336-b4443453701d",
+		"parked": true,
+		"parking_spot_id": "be349916-0f2b-412a-9235-a41943a481e4",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-79.0302"
+			},
+			{
+				"longitude": "-114.0294"
+			}
+		]
+	},
+	{
+		"id": "49558df0-287c-4d78-8db1-21c836fe30cf",
+		"carname": "ea",
+		"energylvl": "777.00",
+		"available": true,
+		"commute_id": "299df726-8136-4caf-b014-2a41c8130493",
+		"parked": true,
+		"parking_spot_id": "14fc20db-8ac9-4197-b586-c3b8d619a1bf",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "82.2872"
+			},
+			{
+				"longitude": "-14.7474"
+			}
+		]
+	},
+	{
+		"id": "fe6e9dd6-bc2a-4003-8ad6-d15141fe6dfd",
+		"carname": "mollitia",
+		"energylvl": "918.00",
+		"available": false,
+		"commute_id": "d31457b8-1db6-4451-801f-5df874c79d51",
+		"parked": false,
+		"parking_spot_id": "c5c4c9df-2139-4fec-90cd-e961728218fb",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "65.1953"
+			},
+			{
+				"longitude": "165.4272"
+			}
+		]
+	},
+	{
+		"id": "8fb6f9a6-36fc-4f38-90cb-6f4571718734",
+		"carname": "porro",
+		"energylvl": "521.00",
+		"available": false,
+		"commute_id": "3df665df-fdb1-43cf-92a3-eee4c6169dda",
+		"parked": false,
+		"parking_spot_id": "2dbac3ed-a100-411a-bfc2-d936a58fed34",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "72.8058"
+			},
+			{
+				"longitude": "-110.5811"
+			}
+		]
+	},
+	{
+		"id": "ed7fda98-1a5c-4508-808c-10bf1026acfc",
+		"carname": "esse",
+		"energylvl": "186.00",
+		"available": true,
+		"commute_id": "66f66280-36ca-4b8a-a82a-7bd7cc2eb59d",
+		"parked": false,
+		"parking_spot_id": "6036e2a3-861d-4cd1-b181-9bd4c37ce8a3",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-48.6965"
+			},
+			{
+				"longitude": "81.8156"
+			}
+		]
+	},
+	{
+		"id": "c1c85f0b-3b35-44f0-ab0a-68dbae66c05a",
+		"carname": "accusamus",
+		"energylvl": "336.00",
+		"available": false,
+		"commute_id": "83ee8dc9-8117-4add-ba36-52593e53a235",
+		"parked": false,
+		"parking_spot_id": "60f4e77c-70cd-45cc-86e4-ffcf29002925",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "44.7923"
+			},
+			{
+				"longitude": "61.5377"
+			}
+		]
+	},
+	{
+		"id": "a2fc5b8b-7b87-4242-95f8-58a924cea23d",
+		"carname": "eaque",
+		"energylvl": "209.00",
+		"available": false,
+		"commute_id": "76afa217-ce11-477c-a6ac-c2dc2d2dfa94",
+		"parked": true,
+		"parking_spot_id": "049afb69-d266-4829-9adb-5908225288ce",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-1.2726"
+			},
+			{
+				"longitude": "58.7771"
+			}
+		]
+	},
+	{
+		"id": "82dc148d-e148-47d0-8cbd-e9808f4f9897",
+		"carname": "similique",
+		"energylvl": "877.00",
+		"available": false,
+		"commute_id": "4eb11859-5c2b-4c15-b7cb-8165276f4b2e",
+		"parked": true,
+		"parking_spot_id": "a77ee212-4669-4327-8933-64a819e5a056",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-17.3967"
+			},
+			{
+				"longitude": "-128.3660"
+			}
+		]
+	},
+	{
+		"id": "883716e3-ad2a-46fa-a01f-c7674ab620f2",
+		"carname": "optio",
+		"energylvl": "164.00",
+		"available": true,
+		"commute_id": "21645ec6-a4a1-40d9-8a3b-a0f247107e49",
+		"parked": false,
+		"parking_spot_id": "7e947179-7b65-4392-978d-5921d42db542",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "36.3698"
+			},
+			{
+				"longitude": "77.6624"
+			}
+		]
+	},
+	{
+		"id": "d3fbc78d-e6a2-4a8f-919d-194aea674d83",
+		"carname": "sapiente",
+		"energylvl": "403.00",
+		"available": true,
+		"commute_id": "7d515d40-6d4b-40d4-9b70-4388468ca60f",
+		"parked": false,
+		"parking_spot_id": "16c04bc9-0d99-4e73-93bb-82bbce94b958",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "45.2044"
+			},
+			{
+				"longitude": "-78.9123"
+			}
+		]
+	},
+	{
+		"id": "c7d0c706-d2af-4304-babe-6b3a8f7abfc2",
+		"carname": "nostrum",
+		"energylvl": "229.00",
+		"available": true,
+		"commute_id": "cd41cefe-2558-4870-bc10-3891af02c384",
+		"parked": true,
+		"parking_spot_id": "d3988176-06bb-41eb-afb1-cc8590233fb8",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "68.0545"
+			},
+			{
+				"longitude": "-129.1184"
+			}
+		]
+	},
+	{
+		"id": "b9014f09-a776-46c9-8bd7-a07d1e5ebe27",
+		"carname": "molestiae",
+		"energylvl": "831.00",
+		"available": true,
+		"commute_id": "54aeed81-c9ea-4340-b1ae-74119e0934c0",
+		"parked": false,
+		"parking_spot_id": "d203b26c-8280-4ac6-9eb8-23512d78e0b4",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-82.4609"
+			},
+			{
+				"longitude": "-168.9350"
+			}
+		]
+	},
+	{
+		"id": "0eedfb96-d709-494b-ab3c-0b7a165a7739",
+		"carname": "quia",
+		"energylvl": "284.00",
+		"available": true,
+		"commute_id": "47b928a6-0abb-4c62-ab5a-c43a9b72ba70",
+		"parked": true,
+		"parking_spot_id": "074fc7d5-eb72-4227-8b3d-561dc650417b",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-14.3881"
+			},
+			{
+				"longitude": "-135.0787"
+			}
+		]
+	},
+	{
+		"id": "9dbf7746-bfb0-4bb1-bc0b-08bc23897d9b",
+		"carname": "aut",
+		"energylvl": "780.00",
+		"available": false,
+		"commute_id": "522c4ef9-ea98-437a-8c99-4466c6383b84",
+		"parked": false,
+		"parking_spot_id": "6baf47f7-6a57-4182-9ead-c541be5d7ad1",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "79.3906"
+			},
+			{
+				"longitude": "30.4437"
+			}
+		]
+	},
+	{
+		"id": "8fee3bd6-64f8-46e4-9f96-3c4476ab5834",
+		"carname": "exercitationem",
+		"energylvl": "751.00",
+		"available": true,
+		"commute_id": "1079378a-d78a-4980-a5f0-3ee70356491f",
+		"parked": true,
+		"parking_spot_id": "8a389e42-d92f-4f80-8d21-fe4d0d626c4e",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "79.3931"
+			},
+			{
+				"longitude": "36.7297"
+			}
+		]
+	},
+	{
+		"id": "afff300f-348a-42a0-8e93-98ca818054fe",
+		"carname": "temporibus",
+		"energylvl": "795.00",
+		"available": false,
+		"commute_id": "8f2744de-6a8b-430d-b8bc-861a32af9e33",
+		"parked": false,
+		"parking_spot_id": "8308c3a3-a656-40ab-92a2-0f4ed872b25b",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-19.9745"
+			},
+			{
+				"longitude": "-1.6195"
+			}
+		]
+	},
+	{
+		"id": "3b808196-f42f-4e1a-bdce-baba5845ccd4",
+		"carname": "aut",
+		"energylvl": "562.00",
+		"available": false,
+		"commute_id": "8fdd560d-9709-4a0b-9ccc-7c7b29e82ece",
+		"parked": true,
+		"parking_spot_id": "d03219b1-9877-4d73-bdbf-6f9cec757e71",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "64.1301"
+			},
+			{
+				"longitude": "-27.1736"
+			}
+		]
+	},
+	{
+		"id": "a939a215-52fa-4c37-bac6-7239a4370bbe",
+		"carname": "ratione",
+		"energylvl": "348.00",
+		"available": false,
+		"commute_id": "117f0c8a-9a26-4296-9621-b41e6456b000",
+		"parked": true,
+		"parking_spot_id": "caa54ef9-d9b8-4751-8644-7e1e90cbaf99",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-35.9065"
+			},
+			{
+				"longitude": "161.0161"
+			}
+		]
+	},
+	{
+		"id": "934bf2b0-94f8-4895-ae11-88c5f50ee1a4",
+		"carname": "culpa",
+		"energylvl": "846.00",
+		"available": false,
+		"commute_id": "f5475605-ffd8-4542-bb0c-e152c281a0bf",
+		"parked": true,
+		"parking_spot_id": "32a54fa3-197b-4389-aff5-267b8273e542",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-64.2773"
+			},
+			{
+				"longitude": "-17.5506"
+			}
+		]
+	},
+	{
+		"id": "f75491ff-0138-45c0-b169-bbfe0ca7ecbd",
+		"carname": "est",
+		"energylvl": "11.00",
+		"available": false,
+		"commute_id": "1042b7c7-65b7-48d8-b7b5-8cb93851ff99",
+		"parked": false,
+		"parking_spot_id": "36621da3-2029-4ccb-9d85-eadbbaeddd56",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-82.3143"
+			},
+			{
+				"longitude": "-176.8838"
+			}
+		]
+	},
+	{
+		"id": "4dd21504-1676-4afe-8d4a-b64963aa2b96",
+		"carname": "est",
+		"energylvl": "585.00",
+		"available": false,
+		"commute_id": "a14d8569-a463-4385-a946-b86b3a74d990",
+		"parked": false,
+		"parking_spot_id": "00a23808-e60c-4c69-a869-31fb53fc0d49",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "21.8068"
+			},
+			{
+				"longitude": "-55.7927"
+			}
+		]
+	},
+	{
+		"id": "740d97cd-e0cd-43a9-acf0-274ddfa30a42",
+		"carname": "voluptatem",
+		"energylvl": "557.00",
+		"available": true,
+		"commute_id": "6a7f7f56-8af4-41a6-ad1f-2c8d1b471416",
+		"parked": false,
+		"parking_spot_id": "a198575f-6720-4cd0-8040-49e721335693",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "58.6997"
+			},
+			{
+				"longitude": "159.4161"
+			}
+		]
+	},
+	{
+		"id": "be00a56a-fb63-4967-ab0d-21a02445b508",
+		"carname": "et",
+		"energylvl": "982.00",
+		"available": false,
+		"commute_id": "b490df44-f96e-4ead-b2ff-a1acc8ce642d",
+		"parked": false,
+		"parking_spot_id": "c76ab552-2455-42eb-8b61-2bc9b8925c6e",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "76.5356"
+			},
+			{
+				"longitude": "-61.6144"
+			}
+		]
+	},
+	{
+		"id": "1ab68b8a-0f45-4a35-9bd4-89056f9c603f",
+		"carname": "et",
+		"energylvl": "128.00",
+		"available": true,
+		"commute_id": "5085b298-557c-41ce-aa73-04ec022e3e0b",
+		"parked": true,
+		"parking_spot_id": "4e0bc240-637b-44ee-b8d1-ff6e317d24b7",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-73.3796"
+			},
+			{
+				"longitude": "91.5323"
+			}
+		]
+	},
+	{
+		"id": "5bd13a04-08ed-476c-960a-b6005f69b93b",
+		"carname": "necessitatibus",
+		"energylvl": "452.00",
+		"available": false,
+		"commute_id": "dabe1192-16cc-413d-a039-44ad6529e7b5",
+		"parked": false,
+		"parking_spot_id": "450c01a8-5593-4f7c-ab02-e233ff15fb1c",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "18.2939"
+			},
+			{
+				"longitude": "108.5382"
+			}
+		]
+	},
+	{
+		"id": "7eaf9fd9-fefd-461e-a3f4-dfd4ffe18b8c",
+		"carname": "modi",
+		"energylvl": "591.00",
+		"available": true,
+		"commute_id": "960ee129-7b8f-4a2f-9929-9671535e3215",
+		"parked": true,
+		"parking_spot_id": "4f4bc6ca-7e34-42d6-bb33-09c2185e029f",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-53.0171"
+			},
+			{
+				"longitude": "-72.9985"
+			}
+		]
+	},
+	{
+		"id": "0ee21111-2e99-4747-a5b5-119b03d9edc7",
+		"carname": "reprehenderit",
+		"energylvl": "710.00",
+		"available": true,
+		"commute_id": "04a07bbc-d34c-4531-90ac-fcd3a6c57099",
+		"parked": true,
+		"parking_spot_id": "0a5e2b19-398a-4199-a53d-7556d612aef6",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "65.5057"
+			},
+			{
+				"longitude": "-125.1370"
+			}
+		]
+	},
+	{
+		"id": "9beee5fb-8dc7-44d4-a096-a03b0933092e",
+		"carname": "deleniti",
+		"energylvl": "340.00",
+		"available": false,
+		"commute_id": "23263e48-d2a3-4dc9-9a11-26df131cd75e",
+		"parked": false,
+		"parking_spot_id": "d67a3989-8b4e-4809-9a69-f69645c714af",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "28.9130"
+			},
+			{
+				"longitude": "99.0058"
+			}
+		]
+	},
+	{
+		"id": "fed19321-63d5-47e1-a668-0c01bfdd1e6c",
+		"carname": "quod",
+		"energylvl": "413.00",
+		"available": false,
+		"commute_id": "f834eda6-349b-459d-8f26-4a3d4243bd95",
+		"parked": true,
+		"parking_spot_id": "5fbb9671-d92e-443f-bcf3-d382df25fb10",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "32.1213"
+			},
+			{
+				"longitude": "143.4684"
+			}
+		]
+	},
+	{
+		"id": "645b08f8-9864-4cb2-b95d-fc26cab0f7c6",
+		"carname": "hic",
+		"energylvl": "18.00",
+		"available": false,
+		"commute_id": "622ba27c-dcfc-410f-b3d9-5e4618d39db8",
+		"parked": false,
+		"parking_spot_id": "0c5845a4-77d1-4254-9b02-720214f2bbdb",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "80.1863"
+			},
+			{
+				"longitude": "71.2731"
+			}
+		]
+	},
+	{
+		"id": "48387001-0234-4051-b2d8-6e38ecb56465",
+		"carname": "magni",
+		"energylvl": "454.00",
+		"available": true,
+		"commute_id": "220f0974-2807-407c-b17f-be86ab201667",
+		"parked": true,
+		"parking_spot_id": "ff91b00c-1572-46c1-8c14-41c1c65e4ab5",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "79.8905"
+			},
+			{
+				"longitude": "90.8116"
+			}
+		]
+	},
+	{
+		"id": "d08c1dc4-a1ff-44d6-9553-aba6ffc7601f",
+		"carname": "ipsa",
+		"energylvl": "726.00",
+		"available": true,
+		"commute_id": "2f819e0a-04c1-454b-abe8-aee35345f9af",
+		"parked": true,
+		"parking_spot_id": "ef6122ff-ba1b-4d66-9979-a57db3afcd93",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "57.5124"
+			},
+			{
+				"longitude": "-2.2980"
+			}
+		]
+	},
+	{
+		"id": "ec72d7cc-c83f-4bc4-93b0-410f84c8e830",
+		"carname": "qui",
+		"energylvl": "730.00",
+		"available": true,
+		"commute_id": "76ee6dce-7294-4098-91a0-2f8e0bba4de8",
+		"parked": true,
+		"parking_spot_id": "a9d16fe3-4964-4645-8449-060eb87ace31",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "47.4210"
+			},
+			{
+				"longitude": "-63.3169"
+			}
+		]
+	},
+	{
+		"id": "e3907a81-fabc-4b52-8d70-afe91fe5c324",
+		"carname": "quo",
+		"energylvl": "688.00",
+		"available": false,
+		"commute_id": "55f1e518-76b9-481c-8c54-9d3d04e71d9c",
+		"parked": false,
+		"parking_spot_id": "937b0883-ad3d-4710-8865-c1f33f8fbb7e",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "4.1479"
+			},
+			{
+				"longitude": "80.0243"
+			}
+		]
+	},
+	{
+		"id": "5d2378db-82cb-4c17-beea-2e20f8e1a3ea",
+		"carname": "consequatur",
+		"energylvl": "710.00",
+		"available": true,
+		"commute_id": "a5a816b4-49c3-4fb8-a996-510a92558f7c",
+		"parked": false,
+		"parking_spot_id": "115b0dbd-4243-4472-a3a9-edd42563aaf1",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-32.2267"
+			},
+			{
+				"longitude": "-99.8100"
+			}
+		]
+	},
+	{
+		"id": "fd2dcc8b-1faa-4aa4-b213-c7e262449be0",
+		"carname": "suscipit",
+		"energylvl": "68.00",
+		"available": false,
+		"commute_id": "ffd49b98-9a7e-41dd-8a55-11810ab8164e",
+		"parked": false,
+		"parking_spot_id": "40370cac-75a0-47f5-a4e7-d7ba3d8d451c",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-75.8388"
+			},
+			{
+				"longitude": "178.7206"
+			}
+		]
+	},
+	{
+		"id": "952f62a4-2ee7-4362-a5a3-7ee3f3931142",
+		"carname": "quia",
+		"energylvl": "105.00",
+		"available": false,
+		"commute_id": "d9126ab6-25bf-40b5-acdc-589b16e7e212",
+		"parked": false,
+		"parking_spot_id": "65ba40e6-4c4c-4d72-891e-f2e65f139593",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "27.1126"
+			},
+			{
+				"longitude": "56.6184"
+			}
+		]
+	},
+	{
+		"id": "ca9c4689-76ce-47b0-8563-6bc885006839",
+		"carname": "omnis",
+		"energylvl": "737.00",
+		"available": true,
+		"commute_id": "d3150dbb-6408-44cb-a86d-7b2e8f32ec95",
+		"parked": true,
+		"parking_spot_id": "03ac6c96-42da-468e-875c-f3687894a19d",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-1.9484"
+			},
+			{
+				"longitude": "34.2514"
+			}
+		]
+	},
+	{
+		"id": "8f3a87df-2b85-45c3-a504-4a5f19a38a7f",
+		"carname": "quisquam",
+		"energylvl": "889.00",
+		"available": true,
+		"commute_id": "061de593-b104-44a3-a8c9-dcb33972c23e",
+		"parked": true,
+		"parking_spot_id": "836afc00-7c51-4603-bf99-40ad18b20690",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "23.3170"
+			},
+			{
+				"longitude": "-178.1685"
+			}
+		]
+	},
+	{
+		"id": "a67c9086-09b7-448b-bf15-e37e37ed8225",
+		"carname": "voluptatem",
+		"energylvl": "329.00",
+		"available": false,
+		"commute_id": "3e3a0016-12d2-42f1-90f4-145c5bf21c14",
+		"parked": true,
+		"parking_spot_id": "9d1765fa-65a4-49f4-9833-e2db5ae6812b",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-62.3646"
+			},
+			{
+				"longitude": "53.4465"
+			}
+		]
+	},
+	{
+		"id": "f24a9854-5436-4b22-8b24-bbf6f9c0e299",
+		"carname": "tempora",
+		"energylvl": "234.00",
+		"available": false,
+		"commute_id": "77d3a96e-0826-4e23-8504-99106a6842e2",
+		"parked": false,
+		"parking_spot_id": "06e89320-e34a-4b7d-a311-e5ac8ee1da76",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-5.6828"
+			},
+			{
+				"longitude": "6.3559"
+			}
+		]
+	},
+	{
+		"id": "34d9ccff-ef55-4094-bae0-847f4b064dcc",
+		"carname": "rem",
+		"energylvl": "554.00",
+		"available": false,
+		"commute_id": "ac520622-c032-4c3d-9fb5-a155f2e52d85",
+		"parked": true,
+		"parking_spot_id": "f9bbcb37-d273-4cbd-bdcf-b7d7f8abe421",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-29.7550"
+			},
+			{
+				"longitude": "-126.8728"
+			}
+		]
+	},
+	{
+		"id": "ac7e2961-be8d-4704-983d-3fcf0df67412",
+		"carname": "velit",
+		"energylvl": "993.00",
+		"available": true,
+		"commute_id": "819f7c9d-32c0-4187-9da1-fdc053834eed",
+		"parked": false,
+		"parking_spot_id": "c5301a87-4154-4b7c-bc85-bc204380c306",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-53.6710"
+			},
+			{
+				"longitude": "156.7285"
+			}
+		]
+	},
+	{
+		"id": "a3b2c8fc-443d-41bb-b7b2-0b0934b748b9",
+		"carname": "placeat",
+		"energylvl": "655.00",
+		"available": true,
+		"commute_id": "81f5ab04-dae1-4d78-a66d-8354ee8d7b04",
+		"parked": false,
+		"parking_spot_id": "cf5a70d4-8570-4bb4-a2ac-89060018ae52",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-25.4415"
+			},
+			{
+				"longitude": "-66.0275"
+			}
+		]
+	},
+	{
+		"id": "12d24075-7f4c-4258-8b93-87892e9419af",
+		"carname": "debitis",
+		"energylvl": "841.00",
+		"available": true,
+		"commute_id": "a70eea40-c8ac-40a8-a376-7937272f03bc",
+		"parked": false,
+		"parking_spot_id": "3733bd7e-f9d0-4edc-8a90-6d6e722d9cac",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-21.7573"
+			},
+			{
+				"longitude": "100.1811"
+			}
+		]
+	},
+	{
+		"id": "fcbedbc1-f85c-4022-82e4-0ff20d0f6e18",
+		"carname": "debitis",
+		"energylvl": "924.00",
+		"available": true,
+		"commute_id": "20798fd4-607e-494e-9632-dfa2be4e39f4",
+		"parked": false,
+		"parking_spot_id": "f56f067b-afce-4a0b-a7ce-8b5aac1c50fc",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "84.2451"
+			},
+			{
+				"longitude": "112.6613"
+			}
+		]
+	},
+	{
+		"id": "4e1e8cdf-9a76-4bda-b065-05dfaf15fa81",
+		"carname": "quo",
+		"energylvl": "396.00",
+		"available": false,
+		"commute_id": "a9c81d36-85b8-491c-86fa-574c02c86829",
+		"parked": false,
+		"parking_spot_id": "ae9c3ccd-bb64-42b3-abc3-740a342ac07e",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "55.2081"
+			},
+			{
+				"longitude": "-70.7294"
+			}
+		]
+	},
+	{
+		"id": "908c66ee-1152-4d40-9cce-52e47cb868a6",
+		"carname": "nihil",
+		"energylvl": "921.00",
+		"available": true,
+		"commute_id": "3394b562-7115-476c-8b13-c977806eca7f",
+		"parked": true,
+		"parking_spot_id": "a98de4e9-15ab-4bb8-a82e-585f8d817848",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-27.9353"
+			},
+			{
+				"longitude": "121.1011"
+			}
+		]
+	},
+	{
+		"id": "1bef8a4c-f702-4b60-ab5e-ddf8dc02cab6",
+		"carname": "quas",
+		"energylvl": "684.00",
+		"available": false,
+		"commute_id": "8c9c6d42-e891-4d62-b426-5e69a2e4ba61",
+		"parked": true,
+		"parking_spot_id": "8e7cd081-cdf6-4e77-8a10-42221f0b9c78",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-2.3757"
+			},
+			{
+				"longitude": "-174.3796"
+			}
+		]
+	},
+	{
+		"id": "2f68518e-98b8-4d0c-a492-4b539c6b9bf6",
+		"carname": "ut",
+		"energylvl": "448.00",
+		"available": true,
+		"commute_id": "bc009bce-4e04-4267-bc29-c3bca26299fa",
+		"parked": false,
+		"parking_spot_id": "b4e3b35c-5db2-4d0d-aadd-85872a4c4d10",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-54.7652"
+			},
+			{
+				"longitude": "-22.0106"
+			}
+		]
+	},
+	{
+		"id": "1617a933-2ab6-4f66-905f-5c25c547ae41",
+		"carname": "iusto",
+		"energylvl": "12.00",
+		"available": true,
+		"commute_id": "4e73b2de-2995-4f3c-9962-e0385d830902",
+		"parked": false,
+		"parking_spot_id": "e9263b1d-bf4e-49fd-9eee-c56b6838666e",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "37.7358"
+			},
+			{
+				"longitude": "-89.8512"
+			}
+		]
+	},
+	{
+		"id": "ea019079-c60d-4cd0-bb1e-a42c3355ecc9",
+		"carname": "incidunt",
+		"energylvl": "466.00",
+		"available": false,
+		"commute_id": "b888bfa4-a535-4f56-9ac4-4d30043699b9",
+		"parked": false,
+		"parking_spot_id": "94ca05a8-205a-4962-94b5-65ca150fd33c",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "27.1843"
+			},
+			{
+				"longitude": "-120.3215"
+			}
+		]
+	},
+	{
+		"id": "e6cd6ef3-a631-415d-834e-e73e1c7902e4",
+		"carname": "suscipit",
+		"energylvl": "362.00",
+		"available": false,
+		"commute_id": "a61f55dc-603d-4ba2-af68-791956754a05",
+		"parked": false,
+		"parking_spot_id": "21399ea8-60bd-48b3-b638-b162769abbff",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-2.1150"
+			},
+			{
+				"longitude": "-120.7215"
+			}
+		]
+	},
+	{
+		"id": "3137b17e-77fe-4719-9f1d-38297ef72916",
+		"carname": "impedit",
+		"energylvl": "782.00",
+		"available": true,
+		"commute_id": "e02bcc79-c158-4403-bc79-badcd2fdd1f4",
+		"parked": false,
+		"parking_spot_id": "ee2cdd8a-d9a2-43b7-917a-3432cad26f3c",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "14.9951"
+			},
+			{
+				"longitude": "-55.2175"
+			}
+		]
+	},
+	{
+		"id": "314b8d73-23db-42a5-ac66-e27d098c9727",
+		"carname": "debitis",
+		"energylvl": "720.00",
+		"available": false,
+		"commute_id": "77bd626a-8446-4c5a-a423-045a7eafe9e0",
+		"parked": false,
+		"parking_spot_id": "7c4a688d-e36d-4acf-a7ca-85d7cb2e0dad",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "31.7132"
+			},
+			{
+				"longitude": "-155.6223"
+			}
+		]
+	},
+	{
+		"id": "ef773b5e-618f-43e7-8707-4ca0b931dda2",
+		"carname": "perferendis",
+		"energylvl": "794.00",
+		"available": true,
+		"commute_id": "7397c393-70e5-4b54-bccb-b31d8c753be8",
+		"parked": true,
+		"parking_spot_id": "f768b475-64c2-406f-aa06-c7df6221c295",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "14.7020"
+			},
+			{
+				"longitude": "-101.3099"
+			}
+		]
+	},
+	{
+		"id": "0cfb9211-5540-497e-9f5b-188229a8f969",
+		"carname": "voluptas",
+		"energylvl": "481.00",
+		"available": false,
+		"commute_id": "1a705c53-9be6-4b01-ac9f-20ab93eb54cf",
+		"parked": true,
+		"parking_spot_id": "f3e2ec21-452b-40c9-9422-43aaa5031202",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "34.5895"
+			},
+			{
+				"longitude": "108.5271"
+			}
+		]
+	},
+	{
+		"id": "0e639c15-d959-4d9f-b6fe-3d4167776759",
+		"carname": "molestiae",
+		"energylvl": "940.00",
+		"available": false,
+		"commute_id": "31fa3541-35b8-4a52-bcf1-f9c77a02dffa",
+		"parked": true,
+		"parking_spot_id": "8e0ab9d4-d68f-48f6-a83f-cb7eae6beb91",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-1.8973"
+			},
+			{
+				"longitude": "177.6100"
+			}
+		]
+	},
+	{
+		"id": "dc70e28d-838b-4ae1-9bb1-66741059988e",
+		"carname": "sapiente",
+		"energylvl": "580.00",
+		"available": true,
+		"commute_id": "7717e2a1-1925-4212-898f-b70d9f43236b",
+		"parked": false,
+		"parking_spot_id": "43a03a9b-642f-43ef-9175-91fd30611b9e",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "23.4530"
+			},
+			{
+				"longitude": "-45.5471"
+			}
+		]
+	},
+	{
+		"id": "ab175927-41b5-4189-b6b2-a47ebe6b90be",
+		"carname": "quia",
+		"energylvl": "518.00",
+		"available": false,
+		"commute_id": "d6f5b076-66b8-4a22-a7fe-302f94778c9d",
+		"parked": true,
+		"parking_spot_id": "f36a3e0f-7f33-4375-83bf-facc555f8fae",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-60.4326"
+			},
+			{
+				"longitude": "-2.3951"
+			}
+		]
+	},
+	{
+		"id": "e05fb30e-2fe0-4079-8f90-cd8fa460851f",
+		"carname": "aut",
+		"energylvl": "711.00",
+		"available": false,
+		"commute_id": "7bbb8ca4-c2ad-4ba6-9857-32a1c1d9fed8",
+		"parked": true,
+		"parking_spot_id": "a7b9a263-1e24-4afb-b074-709792340099",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-58.5630"
+			},
+			{
+				"longitude": "-36.9708"
+			}
+		]
+	},
+	{
+		"id": "a23bd2ea-9bcf-488b-96c3-e1805ca77635",
+		"carname": "est",
+		"energylvl": "141.00",
+		"available": true,
+		"commute_id": "e5599776-4119-45c0-9680-03c3c4a351d8",
+		"parked": false,
+		"parking_spot_id": "b2a01cf4-8cd9-485f-a4d5-f5602c8494c3",
+		"isdeleted": false,
+		"coords": [
+			{
+				"latitude": "-42.9357"
+			},
+			{
+				"longitude": "89.4701"
+			}
+		]
+	}
+]
