@@ -1,1802 +1,2302 @@
 [
 	{
-		"id": "12b79a49-3522-4261-8df0-f84e4fbc79c7",
-		"carname": "nemo",
-		"energylvl": "867.00",
-		"available": false,
-		"commute_id": "9e4700c5-de96-4c93-807f-abca7f00bf29",
-		"parked": true,
-		"parking_spot_id": "075a734e-2f66-470b-9e44-e8bd018d8cbb",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-14.1321"
-			},
-			{
-				"longitude": "-46.5545"
-			}
-		]
-	},
-	{
-		"id": "b7a6a0c3-513a-46ba-871c-44e2adee6452",
-		"carname": "rerum",
-		"energylvl": "752.00",
-		"available": true,
-		"commute_id": "378a4967-2088-41f7-b7e1-3b26221d1d43",
-		"parked": true,
-		"parking_spot_id": "8fd1eeaf-86df-4936-838f-bb7e38c621b8",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-47.0027"
-			},
-			{
-				"longitude": "-133.2995"
-			}
-		]
-	},
-	{
-		"id": "86d3cb53-9607-4a4e-87cd-4972604eb136",
-		"carname": "provident",
-		"energylvl": "437.00",
-		"available": false,
-		"commute_id": "c294ef4c-e17b-491c-9789-8127cef76fd1",
-		"parked": true,
-		"parking_spot_id": "28089b0d-efe5-477c-8eee-7fc6ec3a539f",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-52.2940"
-			},
-			{
-				"longitude": "163.6968"
-			}
-		]
-	},
-	{
-		"id": "7ecde97a-1cf4-4cca-be91-8ae00baddd02",
-		"carname": "aspernatur",
-		"energylvl": "591.00",
-		"available": false,
-		"commute_id": "b7117169-8add-4566-a8e3-5eaab4709e09",
-		"parked": true,
-		"parking_spot_id": "d542a157-874c-4112-b71c-52286dd9a4ef",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "21.0747"
-			},
-			{
-				"longitude": "151.2719"
-			}
-		]
-	},
-	{
-		"id": "7e12d89e-39e4-4b05-88f7-cd65d324c285",
-		"carname": "beatae",
-		"energylvl": "21.00",
-		"available": false,
-		"commute_id": "38249887-8767-4e5a-a26b-e5cbcaed1253",
-		"parked": false,
-		"parking_spot_id": "d49b97fc-8653-42f6-a1b5-a426e26efa25",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "7.6156"
-			},
-			{
-				"longitude": "121.5350"
-			}
-		]
-	},
-	{
-		"id": "8999e5df-aaf3-47a9-8197-5a13e770adc8",
-		"carname": "adipisci",
-		"energylvl": "163.00",
-		"available": true,
-		"commute_id": "af4a3e0e-e713-41c3-81f3-3f91d5590964",
-		"parked": false,
-		"parking_spot_id": "92682338-ffe1-4dd8-9c1a-e00385f2f10a",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "22.9221"
-			},
-			{
-				"longitude": "104.2143"
-			}
-		]
-	},
-	{
-		"id": "dffcb759-7872-4c6a-9c35-d0270a98d736",
-		"carname": "ab",
-		"energylvl": "930.00",
-		"available": true,
-		"commute_id": "4087c543-6dba-446a-8b3b-e01399737444",
-		"parked": true,
-		"parking_spot_id": "107493cb-965a-40bd-b43f-f58db52df92d",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "25.2197"
-			},
-			{
-				"longitude": "-77.0756"
-			}
-		]
-	},
-	{
-		"id": "5683de4e-bc8f-4265-a046-6d8440c81ad9",
-		"carname": "magnam",
-		"energylvl": "481.00",
-		"available": false,
-		"commute_id": "34daf392-3672-4d5d-b5b3-122569d4a038",
-		"parked": true,
-		"parking_spot_id": "eadd2ba0-0bc8-4201-bcc7-69e7094810a4",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "38.0368"
-			},
-			{
-				"longitude": "-21.3130"
-			}
-		]
-	},
-	{
-		"id": "ed8b4a1d-ea40-46d4-bf4e-74cb895f9aed",
-		"carname": "sunt",
-		"energylvl": "695.00",
-		"available": false,
-		"commute_id": "953fb67b-3922-420a-aa30-404d12c9648f",
-		"parked": true,
-		"parking_spot_id": "e4b72f46-d3c5-41c1-9d47-d1d79318174d",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "68.3332"
-			},
-			{
-				"longitude": "68.5490"
-			}
-		]
-	},
-	{
-		"id": "6866ddd2-c24f-4440-80e8-ee89ca080d94",
-		"carname": "unde",
-		"energylvl": "726.00",
-		"available": true,
-		"commute_id": "94b1895b-9ac2-4f70-8093-2a37e1f3463a",
-		"parked": true,
-		"parking_spot_id": "d790ba73-f9c3-488c-bc17-d22db01e09fe",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "10.6870"
-			},
-			{
-				"longitude": "-33.5808"
-			}
-		]
-	},
-	{
-		"id": "145381de-4798-4f96-9690-369415b42e85",
-		"carname": "a",
-		"energylvl": "3.00",
-		"available": true,
-		"commute_id": "aea17211-0b60-4e4a-8129-4ddd41aef0c7",
-		"parked": true,
-		"parking_spot_id": "8692adb0-b3ae-4c2d-b798-068adb907692",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "29.1925"
-			},
-			{
-				"longitude": "120.9233"
-			}
-		]
-	},
-	{
-		"id": "93a68fc6-a820-426c-9250-58fa20817e8c",
-		"carname": "non",
-		"energylvl": "262.00",
-		"available": false,
-		"commute_id": "a4337989-51fb-4f8d-85c6-c286f9919dd2",
-		"parked": true,
-		"parking_spot_id": "1a89f773-3d77-4cce-ad29-eddab6e91cdc",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-38.1695"
-			},
-			{
-				"longitude": "-105.8268"
-			}
-		]
-	},
-	{
-		"id": "6cf91ddc-5d9f-4c7c-8024-65a24398aec5",
-		"carname": "molestiae",
-		"energylvl": "492.00",
-		"available": false,
-		"commute_id": "536eb03d-ce65-44a6-84f9-d49305cf9b13",
-		"parked": false,
-		"parking_spot_id": "47b86f45-0e90-4285-b1c7-34d3d5d4077f",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-56.4792"
-			},
-			{
-				"longitude": "41.5855"
-			}
-		]
-	},
-	{
-		"id": "a8544440-1a71-4d54-9dff-95cebd779f65",
-		"carname": "minima",
-		"energylvl": "318.00",
-		"available": false,
-		"commute_id": "c51f61f6-fb3a-4352-a03c-2f10b9636fe0",
-		"parked": true,
-		"parking_spot_id": "4cda1fbe-6961-460d-b188-56dad09ee20d",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-62.0246"
-			},
-			{
-				"longitude": "-29.0790"
-			}
-		]
-	},
-	{
-		"id": "1dc030f5-eef8-4fb9-b2d9-66fb74e181b6",
-		"carname": "eveniet",
-		"energylvl": "563.00",
-		"available": false,
-		"commute_id": "6fa05ff1-baec-4a7c-97f0-ab9796d9bd10",
-		"parked": true,
-		"parking_spot_id": "4d04e9f6-219f-492d-984f-d1b9a68b07dc",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "5.3635"
-			},
-			{
-				"longitude": "20.9265"
-			}
-		]
-	},
-	{
-		"id": "72505bc2-2857-4a41-87ce-3b6019b840da",
-		"carname": "rerum",
-		"energylvl": "772.00",
-		"available": false,
-		"commute_id": "0bcbae8d-ee00-45e0-b7a1-f1fe721a7e90",
-		"parked": true,
-		"parking_spot_id": "63bb3d41-4ffe-4666-8c4c-48af87620ee5",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-28.0197"
-			},
-			{
-				"longitude": "-50.2514"
-			}
-		]
-	},
-	{
-		"id": "c87fb2bf-141d-4411-b292-f997a2f4e695",
-		"carname": "nihil",
-		"energylvl": "108.00",
-		"available": true,
-		"commute_id": "4ed15d49-cae9-40f1-9ec6-aa4221820b51",
-		"parked": false,
-		"parking_spot_id": "2bc015a5-6727-421f-bd87-95f31c6e597f",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-38.7166"
-			},
-			{
-				"longitude": "-129.2452"
-			}
-		]
-	},
-	{
-		"id": "33f79f12-379c-4522-bd9d-c56e981fdcce",
-		"carname": "maiores",
-		"energylvl": "742.00",
-		"available": true,
-		"commute_id": "69b2a247-2b64-44b7-8c71-a8cf519efede",
-		"parked": true,
-		"parking_spot_id": "695c357d-8590-44f8-99cd-fd26a5fbd50c",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "84.4589"
-			},
-			{
-				"longitude": "29.3206"
-			}
-		]
-	},
-	{
-		"id": "e9e3e3b0-9ba3-4a7a-a8e9-4b31d957bb44",
-		"carname": "quia",
-		"energylvl": "767.00",
-		"available": false,
-		"commute_id": "35fed7af-141c-433c-bccb-5cad74db7613",
-		"parked": true,
-		"parking_spot_id": "c4144aa9-4192-4568-af30-23622da08179",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-6.2135"
-			},
-			{
-				"longitude": "-49.1942"
-			}
-		]
-	},
-	{
-		"id": "7ab30865-1b1d-44f3-9c30-e67fa501b9d0",
-		"carname": "aut",
-		"energylvl": "661.00",
-		"available": false,
-		"commute_id": "67c53f97-780d-4c6d-b520-78fd82d993d2",
-		"parked": true,
-		"parking_spot_id": "ed87734f-4910-48aa-b508-fa7005fb497d",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-50.0646"
-			},
-			{
-				"longitude": "23.5185"
-			}
-		]
-	},
-	{
-		"id": "87df01e5-1dfc-4a25-9452-ac01bb006774",
-		"carname": "alias",
-		"energylvl": "445.00",
-		"available": false,
-		"commute_id": "ff198a56-18c4-46a7-8393-1b3ac4ce7788",
-		"parked": false,
-		"parking_spot_id": "dd5c6a51-aab0-48a2-8d0e-386d9c12790f",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "38.7787"
-			},
-			{
-				"longitude": "106.7796"
-			}
-		]
-	},
-	{
-		"id": "9cb3a190-bfc3-482a-9aee-37c971bdadc2",
-		"carname": "fuga",
-		"energylvl": "203.00",
-		"available": false,
-		"commute_id": "ebd1df4e-0b7d-44df-b1b0-8e60e4020e6c",
-		"parked": false,
-		"parking_spot_id": "d55fabbf-3808-4eee-8a3d-1258f23c0858",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "30.5372"
-			},
-			{
-				"longitude": "145.5395"
-			}
-		]
-	},
-	{
-		"id": "5bd33d8a-4c84-48f3-91ff-afa4408bdbe7",
-		"carname": "fugit",
-		"energylvl": "812.00",
-		"available": false,
-		"commute_id": "1548a8cd-0749-4e66-a686-9bd05e6b2cd6",
-		"parked": true,
-		"parking_spot_id": "1259f822-35f3-44f8-981f-33751d9a12d7",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "66.9209"
-			},
-			{
-				"longitude": "-49.6814"
-			}
-		]
-	},
-	{
-		"id": "7ea54b37-9f0b-45ba-859a-28435c416bc9",
-		"carname": "sunt",
-		"energylvl": "935.00",
-		"available": true,
-		"commute_id": "12a76fac-dab0-4dd5-b195-6420257b864a",
-		"parked": true,
-		"parking_spot_id": "8122fb10-0620-48f3-851f-1b0687fb4481",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "63.5849"
-			},
-			{
-				"longitude": "62.2458"
-			}
-		]
-	},
-	{
-		"id": "9b971d5f-9226-4147-bf98-33f6523d3d5c",
-		"carname": "maxime",
-		"energylvl": "101.00",
-		"available": true,
-		"commute_id": "9dc91bb4-3e22-4886-acaf-b3d5af8e36b6",
-		"parked": false,
-		"parking_spot_id": "0348cbce-588c-4ab0-b6ac-296f3e03de28",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-6.0481"
-			},
-			{
-				"longitude": "43.4898"
-			}
-		]
-	},
-	{
-		"id": "3ff967cd-3d1c-4f4b-ab2f-0f8f94a995e5",
-		"carname": "maxime",
-		"energylvl": "577.00",
-		"available": true,
-		"commute_id": "b667b9e0-5adc-48a2-af1d-83f94d6653bc",
-		"parked": true,
-		"parking_spot_id": "b5f1b4e2-9fbc-4e4a-b3fe-ae6869ea621f",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "21.8149"
-			},
-			{
-				"longitude": "-49.3331"
-			}
-		]
-	},
-	{
-		"id": "63b33350-c341-4be9-a7d9-2abc033e7c2f",
+		"id": "a9671934-2f69-408e-aef7-50937cd608e5",
 		"carname": "qui",
-		"energylvl": "540.00",
+		"energylvl": "450.00",
 		"available": false,
-		"commute_id": "e3a8ef49-7a19-460a-91df-20ee1498fa3b",
-		"parked": false,
-		"parking_spot_id": "4bbe501b-9bf1-48a4-81fc-619cee2d5d48",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-20.7415"
-			},
-			{
-				"longitude": "31.5677"
-			}
-		]
-	},
-	{
-		"id": "30b3423d-cb1f-4773-98bb-43f79f5e5e6c",
-		"carname": "voluptatem",
-		"energylvl": "86.00",
-		"available": true,
-		"commute_id": "4ec97c79-264a-4dcc-bb41-f39b42cf1df9",
+		"commute_id": "9d92038d-4c11-4027-a8f2-93d224144f50",
 		"parked": true,
-		"parking_spot_id": "3170393a-926f-4bcb-bb7c-3b3d6e8a70df",
+		"parking_spot_id": "608b998e-6d73-466a-974b-5850bb4c5d3e",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-26.0889"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
 			},
-			{
-				"longitude": "99.5811"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "7aa8d184-7ef1-4c4c-af2a-57072b21bf1f",
-		"carname": "sit",
-		"energylvl": "411.00",
+		"id": "65b59067-fcc8-4c46-9bb3-19537253c307",
+		"carname": "nisi",
+		"energylvl": "89.00",
 		"available": false,
-		"commute_id": "5ae65047-d95c-43c6-bc87-7976392f9373",
+		"commute_id": "2ecae505-9441-4c9f-9919-1a1584261dd7",
 		"parked": true,
-		"parking_spot_id": "eb02452d-dcd3-4a03-b2e2-197517302a5c",
+		"parking_spot_id": "4e1ccac9-dd3f-4675-bf16-3b9b1dae9a62",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "21.1112"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.842842,
+					10.181056
+				]
 			},
-			{
-				"longitude": "-122.1702"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "72ea9c6b-6520-445f-b2d7-18b6c90213e1",
-		"carname": "neque",
-		"energylvl": "207.00",
-		"available": false,
-		"commute_id": "86ce3a88-6c78-4312-9160-8b49459e0a23",
-		"parked": false,
-		"parking_spot_id": "8457c29e-1299-4407-b932-b298cd230a90",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "4.8107"
-			},
-			{
-				"longitude": "121.9967"
-			}
-		]
-	},
-	{
-		"id": "d74328df-3b3d-46e7-b51d-3b0fd967db70",
-		"carname": "reiciendis",
-		"energylvl": "36.00",
-		"available": false,
-		"commute_id": "7d960464-0c5b-4a97-a8d4-cb37149ecf14",
-		"parked": false,
-		"parking_spot_id": "dfeaa4d3-10e6-4165-a576-34c0b0fb8626",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-73.4707"
-			},
-			{
-				"longitude": "92.2638"
-			}
-		]
-	},
-	{
-		"id": "fe7ab710-9616-43da-a2ec-1e7a5eba31dd",
-		"carname": "nihil",
-		"energylvl": "486.00",
-		"available": false,
-		"commute_id": "2c03dd8d-17a3-456c-86e1-5d17d3a3335a",
-		"parked": false,
-		"parking_spot_id": "8bf12615-358a-49c8-b369-23429c003739",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-36.5678"
-			},
-			{
-				"longitude": "-176.0104"
-			}
-		]
-	},
-	{
-		"id": "d1632952-25ab-4b48-a278-58af52d8ab8e",
-		"carname": "ut",
-		"energylvl": "918.00",
+		"id": "9cfd11c1-3c80-405f-83dc-78dcee89e6fe",
+		"carname": "quos",
+		"energylvl": "58.00",
 		"available": true,
-		"commute_id": "c91842e4-3e5b-4a11-8ad4-15cecd8321a6",
+		"commute_id": "60cd413f-531d-4b29-be8b-763f5f98e2be",
 		"parked": false,
-		"parking_spot_id": "264b730f-2199-4384-ba9f-e81f12877370",
+		"parking_spot_id": "812cba71-5497-4166-bba0-19473aa57e22",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "18.9702"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
 			},
-			{
-				"longitude": "62.9987"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "13222ab6-61db-45b5-9b32-1fd42fa5ca5c",
-		"carname": "sint",
+		"id": "635d9b29-6337-45c3-8f4d-af93978354ab",
+		"carname": "dignissimos",
+		"energylvl": "301.00",
+		"available": true,
+		"commute_id": "d89e9e49-5135-4859-8803-9e0de103eba5",
+		"parked": true,
+		"parking_spot_id": "6ef6d6e2-68bd-4320-8623-af4fc84982e5",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "2c340d39-3369-4729-b8f5-48524dd23900",
+		"carname": "totam",
+		"energylvl": "734.00",
+		"available": true,
+		"commute_id": "24bd02ef-b79d-4fb5-815e-6cd2bde87d0c",
+		"parked": false,
+		"parking_spot_id": "8dd661f3-0141-4af0-b35a-036c00bff4e8",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.835582,
+					10.23865
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "cd7e0f1e-81d8-4cd1-bfbe-e70c7d3ed522",
+		"carname": "rerum",
+		"energylvl": "926.00",
+		"available": false,
+		"commute_id": "a216991b-df9f-4c14-b13c-2ea357731a9f",
+		"parked": false,
+		"parking_spot_id": "7a160c1e-9e8d-45a9-a208-58d852a11430",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "83b2b574-3235-4d69-8189-0ce397ac0a73",
+		"carname": "recusandae",
+		"energylvl": "266.00",
+		"available": true,
+		"commute_id": "5448d046-7103-4a51-a214-5c5b407d9cf9",
+		"parked": true,
+		"parking_spot_id": "b949a8f0-a064-4539-b1be-f01135c8d921",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "aceb79bd-88e7-4178-b528-73910939764c",
+		"carname": "quo",
+		"energylvl": "635.00",
+		"available": true,
+		"commute_id": "ff47b0a6-ca21-46d5-a027-7b95a64cf425",
+		"parked": false,
+		"parking_spot_id": "95343fa8-ab4b-423b-9898-718077dec421",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "6e9cf542-48cb-47bb-affc-172ba9907623",
+		"carname": "et",
 		"energylvl": "54.00",
 		"available": false,
-		"commute_id": "29e9a3cb-0f7e-45f2-a8c7-e216a81a47c1",
-		"parked": true,
-		"parking_spot_id": "25cb2d78-323c-4dae-8fb6-e9977f2117e3",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-19.0190"
-			},
-			{
-				"longitude": "-72.6935"
-			}
-		]
-	},
-	{
-		"id": "b7eb6aa8-40b0-4899-868e-55bc69cdc6a2",
-		"carname": "laborum",
-		"energylvl": "730.00",
-		"available": true,
-		"commute_id": "b362d521-af8b-45a5-b08a-e89e002734fa",
-		"parked": true,
-		"parking_spot_id": "59780c5e-f120-4ee3-a4ba-1042fb562f82",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-45.9264"
-			},
-			{
-				"longitude": "-77.1946"
-			}
-		]
-	},
-	{
-		"id": "a031baf5-fa55-40ad-be4d-28b5a0ab97d1",
-		"carname": "reprehenderit",
-		"energylvl": "444.00",
-		"available": true,
-		"commute_id": "3fd6c68c-4002-42a6-a7a4-0f677f54d956",
-		"parked": true,
-		"parking_spot_id": "ff83a3e7-7891-4a31-8a4e-a594e8ea4498",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-43.0967"
-			},
-			{
-				"longitude": "139.9758"
-			}
-		]
-	},
-	{
-		"id": "c32960fe-5b62-4c3c-9e3a-0024245c816d",
-		"carname": "cumque",
-		"energylvl": "144.00",
-		"available": false,
-		"commute_id": "9c5a7195-1b06-469d-9516-c7ec3bc81714",
+		"commute_id": "ced56155-0279-4937-8e4f-f68166c82bf0",
 		"parked": false,
-		"parking_spot_id": "28b76952-9cab-4134-9a87-e84888c4aea8",
+		"parking_spot_id": "81e43e24-a073-48dd-8575-61cda17cfc6f",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "21.5035"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
 			},
-			{
-				"longitude": "79.2938"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "521c0f6f-3e9b-479c-8d79-913bc6b08073",
-		"carname": "facilis",
-		"energylvl": "416.00",
-		"available": true,
-		"commute_id": "f6bd9569-f60a-4f70-b2a3-e13f6a49e8f4",
-		"parked": true,
-		"parking_spot_id": "21201e19-ea54-4748-be0b-879ff97b68ee",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "48.6153"
-			},
-			{
-				"longitude": "-135.9428"
-			}
-		]
-	},
-	{
-		"id": "1ba2a559-777f-4be2-88ab-42acd71c2198",
-		"carname": "et",
-		"energylvl": "909.00",
-		"available": true,
-		"commute_id": "15e20e8a-0632-480c-b336-b4443453701d",
-		"parked": true,
-		"parking_spot_id": "be349916-0f2b-412a-9235-a41943a481e4",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-79.0302"
-			},
-			{
-				"longitude": "-114.0294"
-			}
-		]
-	},
-	{
-		"id": "49558df0-287c-4d78-8db1-21c836fe30cf",
-		"carname": "ea",
-		"energylvl": "777.00",
-		"available": true,
-		"commute_id": "299df726-8136-4caf-b014-2a41c8130493",
-		"parked": true,
-		"parking_spot_id": "14fc20db-8ac9-4197-b586-c3b8d619a1bf",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "82.2872"
-			},
-			{
-				"longitude": "-14.7474"
-			}
-		]
-	},
-	{
-		"id": "fe6e9dd6-bc2a-4003-8ad6-d15141fe6dfd",
-		"carname": "mollitia",
-		"energylvl": "918.00",
+		"id": "97c9d388-8a26-4883-b5a5-6e12efccd020",
+		"carname": "sunt",
+		"energylvl": "584.00",
 		"available": false,
-		"commute_id": "d31457b8-1db6-4451-801f-5df874c79d51",
-		"parked": false,
-		"parking_spot_id": "c5c4c9df-2139-4fec-90cd-e961728218fb",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "65.1953"
-			},
-			{
-				"longitude": "165.4272"
-			}
-		]
-	},
-	{
-		"id": "8fb6f9a6-36fc-4f38-90cb-6f4571718734",
-		"carname": "porro",
-		"energylvl": "521.00",
-		"available": false,
-		"commute_id": "3df665df-fdb1-43cf-92a3-eee4c6169dda",
-		"parked": false,
-		"parking_spot_id": "2dbac3ed-a100-411a-bfc2-d936a58fed34",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "72.8058"
-			},
-			{
-				"longitude": "-110.5811"
-			}
-		]
-	},
-	{
-		"id": "ed7fda98-1a5c-4508-808c-10bf1026acfc",
-		"carname": "esse",
-		"energylvl": "186.00",
-		"available": true,
-		"commute_id": "66f66280-36ca-4b8a-a82a-7bd7cc2eb59d",
-		"parked": false,
-		"parking_spot_id": "6036e2a3-861d-4cd1-b181-9bd4c37ce8a3",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-48.6965"
-			},
-			{
-				"longitude": "81.8156"
-			}
-		]
-	},
-	{
-		"id": "c1c85f0b-3b35-44f0-ab0a-68dbae66c05a",
-		"carname": "accusamus",
-		"energylvl": "336.00",
-		"available": false,
-		"commute_id": "83ee8dc9-8117-4add-ba36-52593e53a235",
-		"parked": false,
-		"parking_spot_id": "60f4e77c-70cd-45cc-86e4-ffcf29002925",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "44.7923"
-			},
-			{
-				"longitude": "61.5377"
-			}
-		]
-	},
-	{
-		"id": "a2fc5b8b-7b87-4242-95f8-58a924cea23d",
-		"carname": "eaque",
-		"energylvl": "209.00",
-		"available": false,
-		"commute_id": "76afa217-ce11-477c-a6ac-c2dc2d2dfa94",
+		"commute_id": "84aed7e9-2e8d-49ae-b3db-0d65fef7a541",
 		"parked": true,
-		"parking_spot_id": "049afb69-d266-4829-9adb-5908225288ce",
+		"parking_spot_id": "31638b1b-e762-40ae-a779-c794e394b56f",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-1.2726"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.878603,
+					10.23219
+				]
 			},
-			{
-				"longitude": "58.7771"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "82dc148d-e148-47d0-8cbd-e9808f4f9897",
-		"carname": "similique",
-		"energylvl": "877.00",
+		"id": "76f71627-42ce-4cad-9b26-0e29cc87a07c",
+		"carname": "adipisci",
+		"energylvl": "396.00",
+		"available": true,
+		"commute_id": "4ef5cae3-b3c5-43d4-818d-a5173527e267",
+		"parked": true,
+		"parking_spot_id": "f49256bd-588c-4dcb-a381-db2edeeaa1ac",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.865807,
+					10.168945
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "0f25a9e5-f73e-4a86-bf1a-4fa727d9d027",
+		"carname": "earum",
+		"energylvl": "527.00",
 		"available": false,
-		"commute_id": "4eb11859-5c2b-4c15-b7cb-8165276f4b2e",
+		"commute_id": "973f75bd-24ec-4744-974f-744b7c5d37c3",
 		"parked": true,
-		"parking_spot_id": "a77ee212-4669-4327-8933-64a819e5a056",
+		"parking_spot_id": "1017aebc-3530-480a-ad94-63635c62dd38",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-17.3967"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
 			},
-			{
-				"longitude": "-128.3660"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "883716e3-ad2a-46fa-a01f-c7674ab620f2",
-		"carname": "optio",
-		"energylvl": "164.00",
+		"id": "aeef21df-a9ef-4951-b137-ad1117fce1a8",
+		"carname": "debitis",
+		"energylvl": "430.00",
 		"available": true,
-		"commute_id": "21645ec6-a4a1-40d9-8a3b-a0f247107e49",
+		"commute_id": "f6dec187-5614-4a3a-91df-404d0c02142f",
 		"parked": false,
-		"parking_spot_id": "7e947179-7b65-4392-978d-5921d42db542",
+		"parking_spot_id": "7b882485-aa4b-4282-a638-caef67bafaa0",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "36.3698"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
 			},
-			{
-				"longitude": "77.6624"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "d3fbc78d-e6a2-4a8f-919d-194aea674d83",
-		"carname": "sapiente",
-		"energylvl": "403.00",
-		"available": true,
-		"commute_id": "7d515d40-6d4b-40d4-9b70-4388468ca60f",
-		"parked": false,
-		"parking_spot_id": "16c04bc9-0d99-4e73-93bb-82bbce94b958",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "45.2044"
-			},
-			{
-				"longitude": "-78.9123"
-			}
-		]
-	},
-	{
-		"id": "c7d0c706-d2af-4304-babe-6b3a8f7abfc2",
-		"carname": "nostrum",
-		"energylvl": "229.00",
-		"available": true,
-		"commute_id": "cd41cefe-2558-4870-bc10-3891af02c384",
-		"parked": true,
-		"parking_spot_id": "d3988176-06bb-41eb-afb1-cc8590233fb8",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "68.0545"
-			},
-			{
-				"longitude": "-129.1184"
-			}
-		]
-	},
-	{
-		"id": "b9014f09-a776-46c9-8bd7-a07d1e5ebe27",
-		"carname": "molestiae",
-		"energylvl": "831.00",
-		"available": true,
-		"commute_id": "54aeed81-c9ea-4340-b1ae-74119e0934c0",
-		"parked": false,
-		"parking_spot_id": "d203b26c-8280-4ac6-9eb8-23512d78e0b4",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-82.4609"
-			},
-			{
-				"longitude": "-168.9350"
-			}
-		]
-	},
-	{
-		"id": "0eedfb96-d709-494b-ab3c-0b7a165a7739",
-		"carname": "quia",
-		"energylvl": "284.00",
-		"available": true,
-		"commute_id": "47b928a6-0abb-4c62-ab5a-c43a9b72ba70",
-		"parked": true,
-		"parking_spot_id": "074fc7d5-eb72-4227-8b3d-561dc650417b",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-14.3881"
-			},
-			{
-				"longitude": "-135.0787"
-			}
-		]
-	},
-	{
-		"id": "9dbf7746-bfb0-4bb1-bc0b-08bc23897d9b",
-		"carname": "aut",
-		"energylvl": "780.00",
-		"available": false,
-		"commute_id": "522c4ef9-ea98-437a-8c99-4466c6383b84",
-		"parked": false,
-		"parking_spot_id": "6baf47f7-6a57-4182-9ead-c541be5d7ad1",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "79.3906"
-			},
-			{
-				"longitude": "30.4437"
-			}
-		]
-	},
-	{
-		"id": "8fee3bd6-64f8-46e4-9f96-3c4476ab5834",
-		"carname": "exercitationem",
-		"energylvl": "751.00",
-		"available": true,
-		"commute_id": "1079378a-d78a-4980-a5f0-3ee70356491f",
-		"parked": true,
-		"parking_spot_id": "8a389e42-d92f-4f80-8d21-fe4d0d626c4e",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "79.3931"
-			},
-			{
-				"longitude": "36.7297"
-			}
-		]
-	},
-	{
-		"id": "afff300f-348a-42a0-8e93-98ca818054fe",
-		"carname": "temporibus",
-		"energylvl": "795.00",
-		"available": false,
-		"commute_id": "8f2744de-6a8b-430d-b8bc-861a32af9e33",
-		"parked": false,
-		"parking_spot_id": "8308c3a3-a656-40ab-92a2-0f4ed872b25b",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-19.9745"
-			},
-			{
-				"longitude": "-1.6195"
-			}
-		]
-	},
-	{
-		"id": "3b808196-f42f-4e1a-bdce-baba5845ccd4",
-		"carname": "aut",
-		"energylvl": "562.00",
-		"available": false,
-		"commute_id": "8fdd560d-9709-4a0b-9ccc-7c7b29e82ece",
-		"parked": true,
-		"parking_spot_id": "d03219b1-9877-4d73-bdbf-6f9cec757e71",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "64.1301"
-			},
-			{
-				"longitude": "-27.1736"
-			}
-		]
-	},
-	{
-		"id": "a939a215-52fa-4c37-bac6-7239a4370bbe",
-		"carname": "ratione",
-		"energylvl": "348.00",
-		"available": false,
-		"commute_id": "117f0c8a-9a26-4296-9621-b41e6456b000",
-		"parked": true,
-		"parking_spot_id": "caa54ef9-d9b8-4751-8644-7e1e90cbaf99",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-35.9065"
-			},
-			{
-				"longitude": "161.0161"
-			}
-		]
-	},
-	{
-		"id": "934bf2b0-94f8-4895-ae11-88c5f50ee1a4",
+		"id": "1af3a7e6-d73b-45eb-b95e-84fed79d0c29",
 		"carname": "culpa",
-		"energylvl": "846.00",
+		"energylvl": "473.00",
 		"available": false,
-		"commute_id": "f5475605-ffd8-4542-bb0c-e152c281a0bf",
+		"commute_id": "ee766239-9908-4c02-b2d0-8cbdaf57690e",
+		"parked": false,
+		"parking_spot_id": "9ef6ebfe-4b78-43da-a367-c50bad964df1",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.859033,
+					10.125351
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "49d0f2fe-e38e-4295-b5a6-4f186c09e4c7",
+		"carname": "eos",
+		"energylvl": "180.00",
+		"available": false,
+		"commute_id": "ee459c39-a204-495d-890c-90697e11c794",
+		"parked": false,
+		"parking_spot_id": "c66ebc65-c4b7-46a0-960f-47ae268403fd",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.865807,
+					10.168945
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "6671b38f-b2ce-442a-9f95-e2aea3b7ac3b",
+		"carname": "occaecati",
+		"energylvl": "383.00",
+		"available": false,
+		"commute_id": "1fdea1db-9a44-4a96-b03f-a2aab77a2f9f",
 		"parked": true,
-		"parking_spot_id": "32a54fa3-197b-4389-aff5-267b8273e542",
+		"parking_spot_id": "0eedd77f-0a02-49a7-a5ad-650bbb8db0ec",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-64.2773"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.860867,
+					10.153626
+				]
 			},
-			{
-				"longitude": "-17.5506"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "f75491ff-0138-45c0-b169-bbfe0ca7ecbd",
-		"carname": "est",
-		"energylvl": "11.00",
+		"id": "60ab1653-65dd-421f-b829-9db24c3b77a1",
+		"carname": "tempore",
+		"energylvl": "761.00",
+		"available": true,
+		"commute_id": "987c4cca-03b2-4572-8fa0-852bc3ae18fb",
+		"parked": true,
+		"parking_spot_id": "fd758105-14bd-479f-9223-e48622ada3af",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.835582,
+					10.23865
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "f812a041-22f6-40ef-a2a0-33b2df2e1ecf",
+		"carname": "qui",
+		"energylvl": "288.00",
 		"available": false,
-		"commute_id": "1042b7c7-65b7-48d8-b7b5-8cb93851ff99",
-		"parked": false,
-		"parking_spot_id": "36621da3-2029-4ccb-9d85-eadbbaeddd56",
+		"commute_id": "378a8807-e460-4f7b-8e9c-2b842cb5f8df",
+		"parked": true,
+		"parking_spot_id": "5540bede-fd6d-43fc-911b-0317280652c1",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-82.3143"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
 			},
-			{
-				"longitude": "-176.8838"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "4dd21504-1676-4afe-8d4a-b64963aa2b96",
-		"carname": "est",
-		"energylvl": "585.00",
+		"id": "8224bd68-229d-4fe8-993b-9a256d9521c2",
+		"carname": "et",
+		"energylvl": "741.00",
 		"available": false,
-		"commute_id": "a14d8569-a463-4385-a946-b86b3a74d990",
+		"commute_id": "4ed0140a-79b9-41ac-b9e6-d6d15acbba80",
 		"parked": false,
-		"parking_spot_id": "00a23808-e60c-4c69-a869-31fb53fc0d49",
+		"parking_spot_id": "1173ebb3-968c-4630-8e4d-7a5000965a6e",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "21.8068"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.892228,
+					10.211148
+				]
 			},
-			{
-				"longitude": "-55.7927"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "740d97cd-e0cd-43a9-acf0-274ddfa30a42",
+		"id": "e84d44c1-e71b-4c75-837e-e8872b84f15e",
+		"carname": "porro",
+		"energylvl": "985.00",
+		"available": false,
+		"commute_id": "667de0b9-ab32-4237-9852-24c97c8e11ef",
+		"parked": true,
+		"parking_spot_id": "f16402e3-ee3f-4f23-8cd4-251cb4223122",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "b48fa952-d5f0-4521-aad8-327d043276e1",
+		"carname": "doloremque",
+		"energylvl": "571.00",
+		"available": false,
+		"commute_id": "b1fd3127-fc01-4d55-9173-431b12710fbf",
+		"parked": true,
+		"parking_spot_id": "87bdb784-d541-47e6-b107-32b73255e831",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.878603,
+					10.23219
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "2c4533f0-1bea-4a29-a626-a12381bb10ff",
+		"carname": "et",
+		"energylvl": "602.00",
+		"available": false,
+		"commute_id": "bcd0c9b3-9b68-4264-82b1-4a8065ed77f6",
+		"parked": true,
+		"parking_spot_id": "f6e2c2eb-716e-4c3a-91b4-ceeb42d1cf02",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.835582,
+					10.23865
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "a44e5b6d-64e4-4a03-b904-1ffe2181f853",
+		"carname": "molestiae",
+		"energylvl": "916.00",
+		"available": false,
+		"commute_id": "fbae302a-31e8-46b3-a52c-d224a2aabd8f",
+		"parked": false,
+		"parking_spot_id": "98859c95-f31c-4e63-a86f-4a536b6ba0af",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "c5f3580e-e671-4afa-bd08-746f0a34f70c",
+		"carname": "hic",
+		"energylvl": "962.00",
+		"available": false,
+		"commute_id": "f4e606c6-39cf-4c94-b1e4-16862e86e15a",
+		"parked": false,
+		"parking_spot_id": "a140ba58-282c-4493-b257-03f743bf8471",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.850464,
+					10.154553
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "c20f7ac2-fa49-4515-8797-028fe0b5d25d",
 		"carname": "voluptatem",
-		"energylvl": "557.00",
+		"energylvl": "902.00",
 		"available": true,
-		"commute_id": "6a7f7f56-8af4-41a6-ad1f-2c8d1b471416",
+		"commute_id": "e125263a-5b2f-4326-83b3-0da4f0debb24",
 		"parked": false,
-		"parking_spot_id": "a198575f-6720-4cd0-8040-49e721335693",
+		"parking_spot_id": "66513025-7c30-4a3b-a89d-f2cb38054278",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "58.6997"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.842842,
+					10.181056
+				]
 			},
-			{
-				"longitude": "159.4161"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "be00a56a-fb63-4967-ab0d-21a02445b508",
-		"carname": "et",
-		"energylvl": "982.00",
-		"available": false,
-		"commute_id": "b490df44-f96e-4ead-b2ff-a1acc8ce642d",
+		"id": "c4c254a5-be6d-4d44-93c1-9da9e8ea2a59",
+		"carname": "placeat",
+		"energylvl": "987.00",
+		"available": true,
+		"commute_id": "5b3effa2-c20e-46d6-b037-7c69ae1adf8c",
 		"parked": false,
-		"parking_spot_id": "c76ab552-2455-42eb-8b61-2bc9b8925c6e",
+		"parking_spot_id": "2ca6f1f7-f94f-407b-86fe-8fb4a3c52fdb",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "76.5356"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
 			},
-			{
-				"longitude": "-61.6144"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "1ab68b8a-0f45-4a35-9bd4-89056f9c603f",
-		"carname": "et",
-		"energylvl": "128.00",
+		"id": "58b0b7fa-550d-4f7e-83fd-43829af6d82c",
+		"carname": "ut",
+		"energylvl": "522.00",
 		"available": true,
-		"commute_id": "5085b298-557c-41ce-aa73-04ec022e3e0b",
+		"commute_id": "77569979-b579-461a-8196-37d9e2fd0c2c",
 		"parked": true,
-		"parking_spot_id": "4e0bc240-637b-44ee-b8d1-ff6e317d24b7",
+		"parking_spot_id": "b6888159-11db-444b-af82-51adea8fc855",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-73.3796"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.865807,
+					10.168945
+				]
 			},
-			{
-				"longitude": "91.5323"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "5bd13a04-08ed-476c-960a-b6005f69b93b",
-		"carname": "necessitatibus",
-		"energylvl": "452.00",
-		"available": false,
-		"commute_id": "dabe1192-16cc-413d-a039-44ad6529e7b5",
-		"parked": false,
-		"parking_spot_id": "450c01a8-5593-4f7c-ab02-e233ff15fb1c",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "18.2939"
-			},
-			{
-				"longitude": "108.5382"
-			}
-		]
-	},
-	{
-		"id": "7eaf9fd9-fefd-461e-a3f4-dfd4ffe18b8c",
-		"carname": "modi",
-		"energylvl": "591.00",
+		"id": "aa8ff949-43bb-4603-b499-92d016e10813",
+		"carname": "aut",
+		"energylvl": "453.00",
 		"available": true,
-		"commute_id": "960ee129-7b8f-4a2f-9929-9671535e3215",
+		"commute_id": "ff965a1b-ac1b-493d-91bf-209cf088c327",
 		"parked": true,
-		"parking_spot_id": "4f4bc6ca-7e34-42d6-bb33-09c2185e029f",
+		"parking_spot_id": "05914252-b932-4d9a-86a0-0ad6abf0e3a0",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-53.0171"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
 			},
-			{
-				"longitude": "-72.9985"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "0ee21111-2e99-4747-a5b5-119b03d9edc7",
-		"carname": "reprehenderit",
-		"energylvl": "710.00",
-		"available": true,
-		"commute_id": "04a07bbc-d34c-4531-90ac-fcd3a6c57099",
-		"parked": true,
-		"parking_spot_id": "0a5e2b19-398a-4199-a53d-7556d612aef6",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "65.5057"
-			},
-			{
-				"longitude": "-125.1370"
-			}
-		]
-	},
-	{
-		"id": "9beee5fb-8dc7-44d4-a096-a03b0933092e",
-		"carname": "deleniti",
-		"energylvl": "340.00",
+		"id": "90b5e157-64da-440a-9b14-9f6b3fd3e506",
+		"carname": "in",
+		"energylvl": "483.00",
 		"available": false,
-		"commute_id": "23263e48-d2a3-4dc9-9a11-26df131cd75e",
-		"parked": false,
-		"parking_spot_id": "d67a3989-8b4e-4809-9a69-f69645c714af",
+		"commute_id": "6b00bb3b-d434-440a-a506-df17cdbf6eb3",
+		"parked": true,
+		"parking_spot_id": "b68ccf7b-be94-4d1d-8f88-cba5009936af",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "28.9130"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
 			},
-			{
-				"longitude": "99.0058"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "fed19321-63d5-47e1-a668-0c01bfdd1e6c",
-		"carname": "quod",
+		"id": "6de7e1ed-c60b-4016-a5f5-822d901c91ed",
+		"carname": "tempora",
+		"energylvl": "998.00",
+		"available": false,
+		"commute_id": "4a777b8b-f7fa-46ed-9e76-16089b6fda10",
+		"parked": false,
+		"parking_spot_id": "b49b7837-1a76-46e8-99f9-b764c360a507",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.892228,
+					10.211148
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "48c94eb1-9764-41e9-821c-64ad284a76f6",
+		"carname": "consectetur",
+		"energylvl": "247.00",
+		"available": false,
+		"commute_id": "0f3875df-671a-490c-beb9-fe0c61a57fd0",
+		"parked": false,
+		"parking_spot_id": "09cdcce6-49c0-4d4c-842d-b32cdacb108a",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "ff7cc73a-6217-47b1-a238-ac05f89d4ed9",
+		"carname": "eaque",
+		"energylvl": "276.00",
+		"available": false,
+		"commute_id": "1e89ab47-79a7-4c20-8cf6-fcd9cdff8825",
+		"parked": true,
+		"parking_spot_id": "43eaa9ea-5c9c-4aa7-abdd-be49fd2397a6",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "1e97ec3b-a49b-440a-ba18-98fdc225105a",
+		"carname": "iusto",
+		"energylvl": "662.00",
+		"available": true,
+		"commute_id": "7f93902c-b2fc-43e2-a794-3bc54f18da38",
+		"parked": true,
+		"parking_spot_id": "8f1482bb-99f8-4cb2-bce6-1e765758271b",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "909346bb-490b-428f-ab9d-2dacb123719e",
+		"carname": "magni",
+		"energylvl": "614.00",
+		"available": false,
+		"commute_id": "df35a4a2-e0f4-4673-a8fd-c1a1ff96b84d",
+		"parked": true,
+		"parking_spot_id": "36b8404d-e2f4-4965-ba90-911dbae423b2",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "4d238b0e-f78b-4e2b-94cb-c73757b56e90",
+		"carname": "quaerat",
+		"energylvl": "750.00",
+		"available": false,
+		"commute_id": "e53c3c98-9e05-42cd-b40e-9a1a634d354c",
+		"parked": false,
+		"parking_spot_id": "d2b4d145-58ac-45a1-a2fd-071f3ff870f1",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.836152,
+					10.153221
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "4cae83a9-1f44-418f-b4f7-cff5f7599db7",
+		"carname": "molestias",
+		"energylvl": "268.00",
+		"available": true,
+		"commute_id": "9c014dd5-bbf3-4844-99f3-d05189b2431b",
+		"parked": true,
+		"parking_spot_id": "7b20cf65-f469-43e6-8c5f-be80458484ac",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.892228,
+					10.211148
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "574bd5b9-9e83-436b-817f-9fa9558425aa",
+		"carname": "perferendis",
 		"energylvl": "413.00",
 		"available": false,
-		"commute_id": "f834eda6-349b-459d-8f26-4a3d4243bd95",
-		"parked": true,
-		"parking_spot_id": "5fbb9671-d92e-443f-bcf3-d382df25fb10",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "32.1213"
-			},
-			{
-				"longitude": "143.4684"
-			}
-		]
-	},
-	{
-		"id": "645b08f8-9864-4cb2-b95d-fc26cab0f7c6",
-		"carname": "hic",
-		"energylvl": "18.00",
-		"available": false,
-		"commute_id": "622ba27c-dcfc-410f-b3d9-5e4618d39db8",
+		"commute_id": "ac82f469-4283-4890-bd9c-af9338f53c9d",
 		"parked": false,
-		"parking_spot_id": "0c5845a4-77d1-4254-9b02-720214f2bbdb",
+		"parking_spot_id": "14a5e4bd-e44c-4c32-94b9-00832a2df076",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "80.1863"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.860867,
+					10.153626
+				]
 			},
-			{
-				"longitude": "71.2731"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "48387001-0234-4051-b2d8-6e38ecb56465",
-		"carname": "magni",
-		"energylvl": "454.00",
-		"available": true,
-		"commute_id": "220f0974-2807-407c-b17f-be86ab201667",
-		"parked": true,
-		"parking_spot_id": "ff91b00c-1572-46c1-8c14-41c1c65e4ab5",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "79.8905"
-			},
-			{
-				"longitude": "90.8116"
-			}
-		]
-	},
-	{
-		"id": "d08c1dc4-a1ff-44d6-9553-aba6ffc7601f",
-		"carname": "ipsa",
-		"energylvl": "726.00",
-		"available": true,
-		"commute_id": "2f819e0a-04c1-454b-abe8-aee35345f9af",
-		"parked": true,
-		"parking_spot_id": "ef6122ff-ba1b-4d66-9979-a57db3afcd93",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "57.5124"
-			},
-			{
-				"longitude": "-2.2980"
-			}
-		]
-	},
-	{
-		"id": "ec72d7cc-c83f-4bc4-93b0-410f84c8e830",
-		"carname": "qui",
-		"energylvl": "730.00",
-		"available": true,
-		"commute_id": "76ee6dce-7294-4098-91a0-2f8e0bba4de8",
-		"parked": true,
-		"parking_spot_id": "a9d16fe3-4964-4645-8449-060eb87ace31",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "47.4210"
-			},
-			{
-				"longitude": "-63.3169"
-			}
-		]
-	},
-	{
-		"id": "e3907a81-fabc-4b52-8d70-afe91fe5c324",
-		"carname": "quo",
-		"energylvl": "688.00",
-		"available": false,
-		"commute_id": "55f1e518-76b9-481c-8c54-9d3d04e71d9c",
-		"parked": false,
-		"parking_spot_id": "937b0883-ad3d-4710-8865-c1f33f8fbb7e",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "4.1479"
-			},
-			{
-				"longitude": "80.0243"
-			}
-		]
-	},
-	{
-		"id": "5d2378db-82cb-4c17-beea-2e20f8e1a3ea",
-		"carname": "consequatur",
-		"energylvl": "710.00",
-		"available": true,
-		"commute_id": "a5a816b4-49c3-4fb8-a996-510a92558f7c",
-		"parked": false,
-		"parking_spot_id": "115b0dbd-4243-4472-a3a9-edd42563aaf1",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-32.2267"
-			},
-			{
-				"longitude": "-99.8100"
-			}
-		]
-	},
-	{
-		"id": "fd2dcc8b-1faa-4aa4-b213-c7e262449be0",
-		"carname": "suscipit",
-		"energylvl": "68.00",
-		"available": false,
-		"commute_id": "ffd49b98-9a7e-41dd-8a55-11810ab8164e",
-		"parked": false,
-		"parking_spot_id": "40370cac-75a0-47f5-a4e7-d7ba3d8d451c",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-75.8388"
-			},
-			{
-				"longitude": "178.7206"
-			}
-		]
-	},
-	{
-		"id": "952f62a4-2ee7-4362-a5a3-7ee3f3931142",
-		"carname": "quia",
-		"energylvl": "105.00",
-		"available": false,
-		"commute_id": "d9126ab6-25bf-40b5-acdc-589b16e7e212",
-		"parked": false,
-		"parking_spot_id": "65ba40e6-4c4c-4d72-891e-f2e65f139593",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "27.1126"
-			},
-			{
-				"longitude": "56.6184"
-			}
-		]
-	},
-	{
-		"id": "ca9c4689-76ce-47b0-8563-6bc885006839",
-		"carname": "omnis",
-		"energylvl": "737.00",
-		"available": true,
-		"commute_id": "d3150dbb-6408-44cb-a86d-7b2e8f32ec95",
-		"parked": true,
-		"parking_spot_id": "03ac6c96-42da-468e-875c-f3687894a19d",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-1.9484"
-			},
-			{
-				"longitude": "34.2514"
-			}
-		]
-	},
-	{
-		"id": "8f3a87df-2b85-45c3-a504-4a5f19a38a7f",
-		"carname": "quisquam",
-		"energylvl": "889.00",
-		"available": true,
-		"commute_id": "061de593-b104-44a3-a8c9-dcb33972c23e",
-		"parked": true,
-		"parking_spot_id": "836afc00-7c51-4603-bf99-40ad18b20690",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "23.3170"
-			},
-			{
-				"longitude": "-178.1685"
-			}
-		]
-	},
-	{
-		"id": "a67c9086-09b7-448b-bf15-e37e37ed8225",
-		"carname": "voluptatem",
-		"energylvl": "329.00",
-		"available": false,
-		"commute_id": "3e3a0016-12d2-42f1-90f4-145c5bf21c14",
-		"parked": true,
-		"parking_spot_id": "9d1765fa-65a4-49f4-9833-e2db5ae6812b",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-62.3646"
-			},
-			{
-				"longitude": "53.4465"
-			}
-		]
-	},
-	{
-		"id": "f24a9854-5436-4b22-8b24-bbf6f9c0e299",
-		"carname": "tempora",
-		"energylvl": "234.00",
-		"available": false,
-		"commute_id": "77d3a96e-0826-4e23-8504-99106a6842e2",
-		"parked": false,
-		"parking_spot_id": "06e89320-e34a-4b7d-a311-e5ac8ee1da76",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-5.6828"
-			},
-			{
-				"longitude": "6.3559"
-			}
-		]
-	},
-	{
-		"id": "34d9ccff-ef55-4094-bae0-847f4b064dcc",
-		"carname": "rem",
-		"energylvl": "554.00",
-		"available": false,
-		"commute_id": "ac520622-c032-4c3d-9fb5-a155f2e52d85",
-		"parked": true,
-		"parking_spot_id": "f9bbcb37-d273-4cbd-bdcf-b7d7f8abe421",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-29.7550"
-			},
-			{
-				"longitude": "-126.8728"
-			}
-		]
-	},
-	{
-		"id": "ac7e2961-be8d-4704-983d-3fcf0df67412",
-		"carname": "velit",
-		"energylvl": "993.00",
-		"available": true,
-		"commute_id": "819f7c9d-32c0-4187-9da1-fdc053834eed",
-		"parked": false,
-		"parking_spot_id": "c5301a87-4154-4b7c-bc85-bc204380c306",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-53.6710"
-			},
-			{
-				"longitude": "156.7285"
-			}
-		]
-	},
-	{
-		"id": "a3b2c8fc-443d-41bb-b7b2-0b0934b748b9",
-		"carname": "placeat",
-		"energylvl": "655.00",
-		"available": true,
-		"commute_id": "81f5ab04-dae1-4d78-a66d-8354ee8d7b04",
-		"parked": false,
-		"parking_spot_id": "cf5a70d4-8570-4bb4-a2ac-89060018ae52",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-25.4415"
-			},
-			{
-				"longitude": "-66.0275"
-			}
-		]
-	},
-	{
-		"id": "12d24075-7f4c-4258-8b93-87892e9419af",
-		"carname": "debitis",
-		"energylvl": "841.00",
-		"available": true,
-		"commute_id": "a70eea40-c8ac-40a8-a376-7937272f03bc",
-		"parked": false,
-		"parking_spot_id": "3733bd7e-f9d0-4edc-8a90-6d6e722d9cac",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-21.7573"
-			},
-			{
-				"longitude": "100.1811"
-			}
-		]
-	},
-	{
-		"id": "fcbedbc1-f85c-4022-82e4-0ff20d0f6e18",
-		"carname": "debitis",
-		"energylvl": "924.00",
-		"available": true,
-		"commute_id": "20798fd4-607e-494e-9632-dfa2be4e39f4",
-		"parked": false,
-		"parking_spot_id": "f56f067b-afce-4a0b-a7ce-8b5aac1c50fc",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "84.2451"
-			},
-			{
-				"longitude": "112.6613"
-			}
-		]
-	},
-	{
-		"id": "4e1e8cdf-9a76-4bda-b065-05dfaf15fa81",
-		"carname": "quo",
-		"energylvl": "396.00",
-		"available": false,
-		"commute_id": "a9c81d36-85b8-491c-86fa-574c02c86829",
-		"parked": false,
-		"parking_spot_id": "ae9c3ccd-bb64-42b3-abc3-740a342ac07e",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "55.2081"
-			},
-			{
-				"longitude": "-70.7294"
-			}
-		]
-	},
-	{
-		"id": "908c66ee-1152-4d40-9cce-52e47cb868a6",
-		"carname": "nihil",
-		"energylvl": "921.00",
-		"available": true,
-		"commute_id": "3394b562-7115-476c-8b13-c977806eca7f",
-		"parked": true,
-		"parking_spot_id": "a98de4e9-15ab-4bb8-a82e-585f8d817848",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-27.9353"
-			},
-			{
-				"longitude": "121.1011"
-			}
-		]
-	},
-	{
-		"id": "1bef8a4c-f702-4b60-ab5e-ddf8dc02cab6",
-		"carname": "quas",
-		"energylvl": "684.00",
-		"available": false,
-		"commute_id": "8c9c6d42-e891-4d62-b426-5e69a2e4ba61",
-		"parked": true,
-		"parking_spot_id": "8e7cd081-cdf6-4e77-8a10-42221f0b9c78",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-2.3757"
-			},
-			{
-				"longitude": "-174.3796"
-			}
-		]
-	},
-	{
-		"id": "2f68518e-98b8-4d0c-a492-4b539c6b9bf6",
-		"carname": "ut",
-		"energylvl": "448.00",
-		"available": true,
-		"commute_id": "bc009bce-4e04-4267-bc29-c3bca26299fa",
-		"parked": false,
-		"parking_spot_id": "b4e3b35c-5db2-4d0d-aadd-85872a4c4d10",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-54.7652"
-			},
-			{
-				"longitude": "-22.0106"
-			}
-		]
-	},
-	{
-		"id": "1617a933-2ab6-4f66-905f-5c25c547ae41",
+		"id": "bee9f486-c1a2-470a-a2a2-545d7e16c7d4",
 		"carname": "iusto",
-		"energylvl": "12.00",
+		"energylvl": "501.00",
+		"available": false,
+		"commute_id": "58f6a9d9-1b43-48ab-ae39-153425b2f8bd",
+		"parked": true,
+		"parking_spot_id": "f2228cfb-9f4c-42c6-a98a-561099a6da94",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "cf2251ab-5afd-4e80-ae06-97853410aea5",
+		"carname": "laboriosam",
+		"energylvl": "432.00",
 		"available": true,
-		"commute_id": "4e73b2de-2995-4f3c-9962-e0385d830902",
-		"parked": false,
-		"parking_spot_id": "e9263b1d-bf4e-49fd-9eee-c56b6838666e",
+		"commute_id": "70cf5c6c-2ec7-4618-a8da-ee3659f5bbfc",
+		"parked": true,
+		"parking_spot_id": "f17e8f92-bd33-4504-a394-2026b263fc5f",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "37.7358"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.878603,
+					10.23219
+				]
 			},
-			{
-				"longitude": "-89.8512"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "ea019079-c60d-4cd0-bb1e-a42c3355ecc9",
-		"carname": "incidunt",
-		"energylvl": "466.00",
+		"id": "18c30213-25f9-4fb9-b31b-7cbe30ad9fbd",
+		"carname": "sequi",
+		"energylvl": "866.00",
 		"available": false,
-		"commute_id": "b888bfa4-a535-4f56-9ac4-4d30043699b9",
+		"commute_id": "a541d3df-b5a1-40b8-bcc0-388aa06f5e73",
 		"parked": false,
-		"parking_spot_id": "94ca05a8-205a-4962-94b5-65ca150fd33c",
+		"parking_spot_id": "d1de556e-6079-48f0-b881-760153278aa9",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "27.1843"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.860867,
+					10.153626
+				]
 			},
-			{
-				"longitude": "-120.3215"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "e6cd6ef3-a631-415d-834e-e73e1c7902e4",
-		"carname": "suscipit",
-		"energylvl": "362.00",
+		"id": "7f32d5a3-6409-4598-9fc1-332f099a167a",
+		"carname": "quis",
+		"energylvl": "693.00",
 		"available": false,
-		"commute_id": "a61f55dc-603d-4ba2-af68-791956754a05",
-		"parked": false,
-		"parking_spot_id": "21399ea8-60bd-48b3-b638-b162769abbff",
+		"commute_id": "fdffe43c-6aa6-4fc9-be23-861da61ea1ec",
+		"parked": true,
+		"parking_spot_id": "88d4aabb-051a-4094-b88f-75742d2d390b",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-2.1150"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.850464,
+					10.154553
+				]
 			},
-			{
-				"longitude": "-120.7215"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "3137b17e-77fe-4719-9f1d-38297ef72916",
-		"carname": "impedit",
-		"energylvl": "782.00",
+		"id": "9859389c-669a-40e9-80e4-eba5d87c88c5",
+		"carname": "rerum",
+		"energylvl": "137.00",
+		"available": false,
+		"commute_id": "909ffdcc-3b5d-422a-b5d4-53d5bfdc6e8f",
+		"parked": false,
+		"parking_spot_id": "895eb95a-9c79-4b06-8b01-8482a6ad3208",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.836152,
+					10.153221
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "79dcdcdf-f511-4391-9dd7-6dcc404d9a95",
+		"carname": "quae",
+		"energylvl": "77.00",
 		"available": true,
-		"commute_id": "e02bcc79-c158-4403-bc79-badcd2fdd1f4",
+		"commute_id": "a22556fb-5a4c-4d87-a747-b139e01ba28d",
 		"parked": false,
-		"parking_spot_id": "ee2cdd8a-d9a2-43b7-917a-3432cad26f3c",
+		"parking_spot_id": "551e5cf5-adc1-489d-8687-3e5af30cdf1a",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "14.9951"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.865807,
+					10.168945
+				]
 			},
-			{
-				"longitude": "-55.2175"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "314b8d73-23db-42a5-ac66-e27d098c9727",
-		"carname": "debitis",
-		"energylvl": "720.00",
+		"id": "bb062b4a-cab8-4e44-933a-259f28d7dd5f",
+		"carname": "asperiores",
+		"energylvl": "625.00",
+		"available": true,
+		"commute_id": "9370ac02-9798-4aa9-9a64-2a32525192ab",
+		"parked": false,
+		"parking_spot_id": "a5ae6f8b-caa3-4bfb-950f-6570092fdaa8",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.836152,
+					10.153221
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "7dc5edac-4bc5-4b6e-814d-6d0a4a794d7b",
+		"carname": "eaque",
+		"energylvl": "299.00",
 		"available": false,
-		"commute_id": "77bd626a-8446-4c5a-a423-045a7eafe9e0",
-		"parked": false,
-		"parking_spot_id": "7c4a688d-e36d-4acf-a7ca-85d7cb2e0dad",
+		"commute_id": "6ce9e92b-617f-41b2-a1ff-88d792084707",
+		"parked": true,
+		"parking_spot_id": "c9fc9f4a-5c8b-4c30-b543-adcdfb23f97a",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "31.7132"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
 			},
-			{
-				"longitude": "-155.6223"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "ef773b5e-618f-43e7-8707-4ca0b931dda2",
+		"id": "084a34ce-dde9-4eaf-9d59-6d7e9a384c4e",
+		"carname": "dolorum",
+		"energylvl": "146.00",
+		"available": false,
+		"commute_id": "dfac2dc2-ba82-4302-b0b5-881b0a36800c",
+		"parked": false,
+		"parking_spot_id": "27c70627-e1bf-4404-a607-51e196fbf4ea",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.850464,
+					10.154553
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "0b056028-f07c-444a-80cd-6779663473c4",
+		"carname": "cumque",
+		"energylvl": "167.00",
+		"available": false,
+		"commute_id": "0d497eb4-2515-4d25-be2f-3b114d0cf455",
+		"parked": true,
+		"parking_spot_id": "b1c94b55-22d2-459e-ae95-ef27c6247c8d",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "6f61badf-1e25-44a0-89c9-e2dea8a781fd",
+		"carname": "quasi",
+		"energylvl": "857.00",
+		"available": true,
+		"commute_id": "0494163e-961a-4ae6-beae-2f82f07e4d80",
+		"parked": false,
+		"parking_spot_id": "460ba976-65a9-483c-9064-391caec6c6fb",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.878603,
+					10.23219
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "38891cb3-c59c-4f87-b06a-508db269ab7e",
 		"carname": "perferendis",
-		"energylvl": "794.00",
+		"energylvl": "837.00",
 		"available": true,
-		"commute_id": "7397c393-70e5-4b54-bccb-b31d8c753be8",
+		"commute_id": "4db1f984-d713-4d59-a2bb-6adebe5230f4",
 		"parked": true,
-		"parking_spot_id": "f768b475-64c2-406f-aa06-c7df6221c295",
+		"parking_spot_id": "3ddc509c-6126-4767-8a3a-9ad38abddd72",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "14.7020"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
 			},
-			{
-				"longitude": "-101.3099"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "0cfb9211-5540-497e-9f5b-188229a8f969",
-		"carname": "voluptas",
-		"energylvl": "481.00",
+		"id": "b86a226c-8808-43bf-b491-bdc43a32801d",
+		"carname": "rerum",
+		"energylvl": "803.00",
 		"available": false,
-		"commute_id": "1a705c53-9be6-4b01-ac9f-20ab93eb54cf",
+		"commute_id": "823389bc-258d-47fd-a0e6-4ad08d9f3305",
 		"parked": true,
-		"parking_spot_id": "f3e2ec21-452b-40c9-9422-43aaa5031202",
+		"parking_spot_id": "f0ea1416-7546-4fe3-885c-b6ff2b1e3714",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "34.5895"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
 			},
-			{
-				"longitude": "108.5271"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "0e639c15-d959-4d9f-b6fe-3d4167776759",
-		"carname": "molestiae",
-		"energylvl": "940.00",
-		"available": false,
-		"commute_id": "31fa3541-35b8-4a52-bcf1-f9c77a02dffa",
-		"parked": true,
-		"parking_spot_id": "8e0ab9d4-d68f-48f6-a83f-cb7eae6beb91",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-1.8973"
-			},
-			{
-				"longitude": "177.6100"
-			}
-		]
-	},
-	{
-		"id": "dc70e28d-838b-4ae1-9bb1-66741059988e",
-		"carname": "sapiente",
-		"energylvl": "580.00",
+		"id": "80e05f76-295d-418c-8c60-c291568e8c28",
+		"carname": "quis",
+		"energylvl": "200.00",
 		"available": true,
-		"commute_id": "7717e2a1-1925-4212-898f-b70d9f43236b",
+		"commute_id": "4909f549-9c2e-4b76-b9fe-3b897d28ce79",
 		"parked": false,
-		"parking_spot_id": "43a03a9b-642f-43ef-9175-91fd30611b9e",
+		"parking_spot_id": "d997bee4-f037-45f0-b80c-5d275c677932",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "23.4530"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.865807,
+					10.168945
+				]
 			},
-			{
-				"longitude": "-45.5471"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "ab175927-41b5-4189-b6b2-a47ebe6b90be",
+		"id": "c19b416e-0868-42c6-b562-be5453e3cf66",
 		"carname": "quia",
-		"energylvl": "518.00",
+		"energylvl": "127.00",
 		"available": false,
-		"commute_id": "d6f5b076-66b8-4a22-a7fe-302f94778c9d",
+		"commute_id": "95617dee-6dd7-4b7c-9498-b25b13156578",
 		"parked": true,
-		"parking_spot_id": "f36a3e0f-7f33-4375-83bf-facc555f8fae",
+		"parking_spot_id": "954fecab-6e31-49e3-be6b-b86842bcaa92",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-60.4326"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.842842,
+					10.181056
+				]
 			},
-			{
-				"longitude": "-2.3951"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
 	},
 	{
-		"id": "e05fb30e-2fe0-4079-8f90-cd8fa460851f",
-		"carname": "aut",
-		"energylvl": "711.00",
-		"available": false,
-		"commute_id": "7bbb8ca4-c2ad-4ba6-9857-32a1c1d9fed8",
-		"parked": true,
-		"parking_spot_id": "a7b9a263-1e24-4afb-b074-709792340099",
-		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-58.5630"
-			},
-			{
-				"longitude": "-36.9708"
-			}
-		]
-	},
-	{
-		"id": "a23bd2ea-9bcf-488b-96c3-e1805ca77635",
-		"carname": "est",
-		"energylvl": "141.00",
+		"id": "d1ec36e5-5ee6-4ccc-a8a6-51ed00882ff9",
+		"carname": "neque",
+		"energylvl": "97.00",
 		"available": true,
-		"commute_id": "e5599776-4119-45c0-9680-03c3c4a351d8",
+		"commute_id": "fe46d595-0b23-4330-a9b2-d29a90152e95",
 		"parked": false,
-		"parking_spot_id": "b2a01cf4-8cd9-485f-a4d5-f5602c8494c3",
+		"parking_spot_id": "11743234-01a8-4d76-a94d-acb8302c86f0",
 		"isdeleted": false,
-		"coords": [
-			{
-				"latitude": "-42.9357"
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
 			},
-			{
-				"longitude": "89.4701"
+			"properties": {
+				"name": "Coors Field"
 			}
-		]
+		}
+	},
+	{
+		"id": "453f9d4f-ddd9-498e-ac81-53d7cb1d93b1",
+		"carname": "perspiciatis",
+		"energylvl": "699.00",
+		"available": false,
+		"commute_id": "ba5ce9bf-03fb-4aa9-9505-a5c9844795f8",
+		"parked": false,
+		"parking_spot_id": "ec90ed91-f224-492e-8768-4cbf7fe1648a",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.878603,
+					10.23219
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "5aa3f9d9-d78b-4d1b-9043-1909273f1d67",
+		"carname": "itaque",
+		"energylvl": "195.00",
+		"available": false,
+		"commute_id": "14671d52-e85c-44c1-bd0e-2894fabebda4",
+		"parked": true,
+		"parking_spot_id": "2b681a34-404b-4206-b590-8a26719678a9",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "54ede982-63a9-4afd-8a71-dd15ce7fa3a2",
+		"carname": "totam",
+		"energylvl": "400.00",
+		"available": true,
+		"commute_id": "0fdef667-f5e5-484d-858d-66477dcd311b",
+		"parked": false,
+		"parking_spot_id": "f75ed31b-321b-4064-ac49-e09bb774d15e",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.860867,
+					10.153626
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "90385b3b-6fb0-4999-a482-22d67c5f95ee",
+		"carname": "optio",
+		"energylvl": "903.00",
+		"available": true,
+		"commute_id": "b06b3eab-7f00-4f65-8257-3e6b6e4413ad",
+		"parked": false,
+		"parking_spot_id": "cbf12c50-19f2-49ed-8dc5-6fdec47f7667",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.865807,
+					10.168945
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "c8d9b2e6-bffe-417e-abae-3a703aea36b2",
+		"carname": "aut",
+		"energylvl": "650.00",
+		"available": false,
+		"commute_id": "5012a12a-0acb-4dfb-ac89-bc7cdd735140",
+		"parked": false,
+		"parking_spot_id": "c835ac09-ff7c-4b0c-8ca6-d573eac75cf4",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.835582,
+					10.23865
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "a62d3a34-403b-484b-9b51-159e30209161",
+		"carname": "itaque",
+		"energylvl": "281.00",
+		"available": false,
+		"commute_id": "7059ad77-4741-44ad-8d67-6fa2feac8573",
+		"parked": true,
+		"parking_spot_id": "71b8d98c-5080-4087-8a83-4b86403441b3",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "47124412-7ea4-405a-972e-669f30adf5ba",
+		"carname": "veniam",
+		"energylvl": "598.00",
+		"available": true,
+		"commute_id": "6a3f9fc0-ba95-4438-9492-e48b31832fdc",
+		"parked": false,
+		"parking_spot_id": "1601981e-cf13-4126-86bd-9c01a754049c",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "a03d39c7-8fe9-4771-b218-1f5a75b12d89",
+		"carname": "saepe",
+		"energylvl": "940.00",
+		"available": true,
+		"commute_id": "8f5e2b5c-338d-4271-8315-029c91288c63",
+		"parked": false,
+		"parking_spot_id": "2ea4ff4f-60a8-48bb-845e-224722710061",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "00588e19-3ab4-435f-b59a-9c10583ade61",
+		"carname": "dolores",
+		"energylvl": "32.00",
+		"available": false,
+		"commute_id": "f182896e-218a-4b8f-8826-098a11c3f6a2",
+		"parked": true,
+		"parking_spot_id": "c214f7de-0e02-4a2d-8d86-4c0af670cc35",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.859033,
+					10.125351
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "9037f44b-6040-41a1-a105-6f0145effe61",
+		"carname": "facere",
+		"energylvl": "881.00",
+		"available": false,
+		"commute_id": "17a93950-4198-4a78-bfdf-ac95afed5b65",
+		"parked": false,
+		"parking_spot_id": "b18d706d-77c6-46f2-9a7c-04137b2335da",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.860867,
+					10.153626
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "fc1e9697-02b7-4767-b011-24706b9fe5c5",
+		"carname": "et",
+		"energylvl": "770.00",
+		"available": false,
+		"commute_id": "5173487c-696e-448a-a9e2-3ee0785a4276",
+		"parked": false,
+		"parking_spot_id": "f951b056-91e2-46a3-b105-ba4582fc1642",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "b0135218-9c5a-49c6-b301-581adf3e1a58",
+		"carname": "laudantium",
+		"energylvl": "410.00",
+		"available": false,
+		"commute_id": "74a6a56d-d6b3-4f26-a2e0-910c9e4e664c",
+		"parked": true,
+		"parking_spot_id": "22802093-a378-47f9-b7ba-a56d08ac6f3e",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "1aae957c-39d7-41b2-b0db-8c4cb719665d",
+		"carname": "voluptatum",
+		"energylvl": "946.00",
+		"available": true,
+		"commute_id": "32f113a8-a2ea-4eaa-9060-ef7074d5bfea",
+		"parked": true,
+		"parking_spot_id": "d0556557-16a2-43cc-aec1-3606b2f67273",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.842842,
+					10.181056
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "c4bc3bea-fb46-4bc2-afda-2e6aaff6cec2",
+		"carname": "distinctio",
+		"energylvl": "792.00",
+		"available": true,
+		"commute_id": "d6e0a16f-ff5d-4949-a725-d5c28cfaa11a",
+		"parked": false,
+		"parking_spot_id": "8658af4f-4854-4ed2-897e-722d30257ef1",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "f39fb789-c8e6-469e-9617-9654670a8db8",
+		"carname": "doloremque",
+		"energylvl": "866.00",
+		"available": false,
+		"commute_id": "b56ff21b-dbe3-4e9a-aca0-189cc078f4dc",
+		"parked": false,
+		"parking_spot_id": "304b3bdb-469b-4d90-bd4c-45d9200a18a4",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "6c4961fe-2ec2-4d6f-b854-0d1f2684811a",
+		"carname": "labore",
+		"energylvl": "63.00",
+		"available": false,
+		"commute_id": "200902d8-6d5a-4b6b-ac9f-63e41b9cc6f4",
+		"parked": true,
+		"parking_spot_id": "1bdc53b0-cc24-490a-a36c-ab97dcc7122e",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.910874,
+					10.17854
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "d1dd000e-b840-439d-903c-137512dfbef5",
+		"carname": "et",
+		"energylvl": "723.00",
+		"available": false,
+		"commute_id": "f295a9c4-a8b0-477f-9f7b-058eaaad434b",
+		"parked": false,
+		"parking_spot_id": "481ba0cb-3f1e-4732-a05f-7ba803318116",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "884b255b-b3fc-46a8-bbdb-669a4eb43684",
+		"carname": "omnis",
+		"energylvl": "55.00",
+		"available": false,
+		"commute_id": "dd79580c-3aca-4b25-ae4f-5ea3bd971098",
+		"parked": true,
+		"parking_spot_id": "724de8f1-4af0-495f-916e-655ba3699e92",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.836152,
+					10.153221
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "9e278c9c-635f-4123-b55c-aeb40d3b354f",
+		"carname": "sunt",
+		"energylvl": "779.00",
+		"available": false,
+		"commute_id": "372be2fd-19d1-413c-aed7-b4f76886c284",
+		"parked": false,
+		"parking_spot_id": "a7acb93c-3493-455d-b4a0-11b975faee05",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "f79252ba-8a36-44ca-a790-7a4157f73fb0",
+		"carname": "est",
+		"energylvl": "990.00",
+		"available": true,
+		"commute_id": "14f1633b-ec84-44eb-8242-cf682d6b107e",
+		"parked": true,
+		"parking_spot_id": "1ccd8ed2-4129-4e9f-9e93-03c55113e3aa",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "d8efa21a-dc62-494f-98e8-57faf84957d8",
+		"carname": "quia",
+		"energylvl": "421.00",
+		"available": false,
+		"commute_id": "16908f12-9c7b-4091-bbf8-41f685853eae",
+		"parked": false,
+		"parking_spot_id": "49703c1c-3924-4a4c-b198-2a645aa3db6b",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "29c988f2-eafb-46f3-be2e-b985972b1450",
+		"carname": "dolorum",
+		"energylvl": "416.00",
+		"available": false,
+		"commute_id": "17b03600-7972-4598-9cf0-07af36cd14a7",
+		"parked": false,
+		"parking_spot_id": "a944eade-88b3-4b9c-bf78-3c883c2c8798",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.836152,
+					10.153221
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "b8bd728b-72c7-4597-9f5b-b956da26df0e",
+		"carname": "voluptate",
+		"energylvl": "55.00",
+		"available": true,
+		"commute_id": "c5db1d0b-4e53-4568-bc4f-52af95121d45",
+		"parked": true,
+		"parking_spot_id": "1432badd-efa6-4170-a5b7-a0398c0c973c",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "3952d135-d948-406b-9d8c-7f8baca817c8",
+		"carname": "qui",
+		"energylvl": "356.00",
+		"available": true,
+		"commute_id": "6f8dcdf4-d41f-405d-a77e-bea1535648ea",
+		"parked": true,
+		"parking_spot_id": "c68c9ef5-556b-47f5-9f3e-b86b1f4a602e",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.892228,
+					10.211148
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "27c1dff1-348d-4ebc-86b5-1a243591299c",
+		"carname": "aut",
+		"energylvl": "167.00",
+		"available": true,
+		"commute_id": "b159746b-9dd6-4ceb-9b16-7c4a6c03b6fb",
+		"parked": false,
+		"parking_spot_id": "3884b139-6fd5-40ee-a755-7f61a5de9abc",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.835582,
+					10.23865
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "ac0fc24f-7b3b-4ee3-958f-745265f651da",
+		"carname": "non",
+		"energylvl": "631.00",
+		"available": true,
+		"commute_id": "ff680296-6e58-4d65-832d-488fdccb6c0e",
+		"parked": true,
+		"parking_spot_id": "e004903c-4e95-464d-bb12-3e54cc9b1269",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "1876fac2-4e08-4834-9e3a-174d629006cd",
+		"carname": "consequatur",
+		"energylvl": "197.00",
+		"available": true,
+		"commute_id": "34960de6-b078-4248-a966-a760b1df2264",
+		"parked": false,
+		"parking_spot_id": "fb227354-58d5-4329-8fe9-48394e99396f",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.859033,
+					10.125351
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "5ee19834-6d46-4afd-a5dc-f23492e4ad26",
+		"carname": "enim",
+		"energylvl": "978.00",
+		"available": true,
+		"commute_id": "4be67d53-f24a-4fac-9c51-61e6945ef598",
+		"parked": false,
+		"parking_spot_id": "8f6037a2-2165-46db-a053-d34df1581e30",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.892228,
+					10.211148
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "812b820f-2e4a-4946-9208-805bb02376d9",
+		"carname": "consequatur",
+		"energylvl": "936.00",
+		"available": true,
+		"commute_id": "66fd5123-3110-403d-8e2b-7c92b9f51e98",
+		"parked": true,
+		"parking_spot_id": "e2ae19e6-1bcb-4e6b-8000-07a376af6d8e",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "38d1ff08-116b-4581-85ea-431b041a64f5",
+		"carname": "quis",
+		"energylvl": "486.00",
+		"available": false,
+		"commute_id": "b675a982-93c7-4e8e-a9d7-92e4eda4d003",
+		"parked": false,
+		"parking_spot_id": "dea34389-88a1-4444-94f4-820b288206a0",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "9af5d157-a2ad-4c99-ad53-a5970622d7ea",
+		"carname": "et",
+		"energylvl": "742.00",
+		"available": true,
+		"commute_id": "3bb8a6a1-6a2c-4817-a92e-3ce2adac94f9",
+		"parked": true,
+		"parking_spot_id": "dc6a1b95-334b-4933-8a0f-4f1a03fbb6dc",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "f5298919-a384-488d-97c9-e8fa7a6145d4",
+		"carname": "autem",
+		"energylvl": "805.00",
+		"available": true,
+		"commute_id": "35457129-0e32-41df-81b5-9198e609b8c9",
+		"parked": true,
+		"parking_spot_id": "1c5657b6-c7bf-4b2b-895a-93ff11e74447",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.836152,
+					10.153221
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "8bef2eb5-6c12-45b6-8f5a-6ca48a1026a6",
+		"carname": "hic",
+		"energylvl": "928.00",
+		"available": false,
+		"commute_id": "f18ffd32-c1b0-40bb-a3b4-6129e727e02b",
+		"parked": true,
+		"parking_spot_id": "f3dc60cf-b6be-4f8d-adbf-3943386832ea",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "a2a90927-069f-447f-93a0-2cb7aed3faaa",
+		"carname": "saepe",
+		"energylvl": "715.00",
+		"available": true,
+		"commute_id": "bd767982-0930-402b-966a-f0b66069cd99",
+		"parked": false,
+		"parking_spot_id": "067c1e4e-284e-4c47-afe9-482b97e75353",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "1d71343f-8858-4e38-9f5b-04300920a7d7",
+		"carname": "non",
+		"energylvl": "228.00",
+		"available": true,
+		"commute_id": "8f06c05c-4754-4131-9391-3b3d8cc72625",
+		"parked": false,
+		"parking_spot_id": "d07fbc89-ea13-46ef-8ae4-30b88221eb92",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.847008,
+					10.214154
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "56599947-7b65-49a1-9f2a-65d2b639995e",
+		"carname": "consequatur",
+		"energylvl": "438.00",
+		"available": true,
+		"commute_id": "6b72d25a-5611-40d4-a5e8-a807612dc811",
+		"parked": false,
+		"parking_spot_id": "b0e447fd-482a-4c5e-b4b0-299b87da1f32",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "4c0dc847-80c7-4d61-8b4e-4c21c8d342d5",
+		"carname": "omnis",
+		"energylvl": "621.00",
+		"available": true,
+		"commute_id": "781277a1-2bed-4259-af9d-083766d442a4",
+		"parked": false,
+		"parking_spot_id": "f80dd2a1-4b1a-4a24-a46d-4ac5342a15f5",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.86784,
+					10.164659
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "47819f87-3a38-40f7-b721-c5d8dfe3f6c8",
+		"carname": "debitis",
+		"energylvl": "580.00",
+		"available": false,
+		"commute_id": "de3a5b01-a4f8-45cc-9b9f-f1b858db135c",
+		"parked": false,
+		"parking_spot_id": "488f48f6-f80e-4bef-945a-803f7e67a81a",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "755efa05-fd50-49fd-a30f-eff427599599",
+		"carname": "ut",
+		"energylvl": "277.00",
+		"available": false,
+		"commute_id": "09e371b5-a373-49b8-84ae-35a9e2295ecc",
+		"parked": false,
+		"parking_spot_id": "25621b73-bab5-47db-b8c4-2fab58109d4c",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "02518c42-858b-4821-bd06-c995b8cdd90a",
+		"carname": "id",
+		"energylvl": "125.00",
+		"available": false,
+		"commute_id": "ed34f0c4-c3d8-4960-9a43-51e24247be05",
+		"parked": false,
+		"parking_spot_id": "f45bd015-92a0-45e0-92fe-d3d3794a76ff",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.850464,
+					10.154553
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "fda1236e-dcda-4cfc-bfa3-ae197a6f7923",
+		"carname": "saepe",
+		"energylvl": "600.00",
+		"available": false,
+		"commute_id": "1cd5dbb2-d49f-4ff7-9294-8f04fe6ca8f0",
+		"parked": false,
+		"parking_spot_id": "4c0a96f7-6a1a-4247-a6e7-f0d603ca668b",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "00574ad1-71da-458e-8d79-1858c5506c06",
+		"carname": "aut",
+		"energylvl": "152.00",
+		"available": false,
+		"commute_id": "cd27fb3c-bfb1-4611-9607-2b9fa72835b6",
+		"parked": false,
+		"parking_spot_id": "08672c82-4c09-4475-881c-94acaa3e76ad",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "440238bf-9daa-41bf-94da-20ae25840533",
+		"carname": "ipsam",
+		"energylvl": "759.00",
+		"available": true,
+		"commute_id": "31b54611-661e-4b7a-9152-fa141c8e0558",
+		"parked": false,
+		"parking_spot_id": "040af8f5-f1e5-44d2-be37-e9a74cd750a3",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.835582,
+					10.23865
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "ad1d1d81-a728-4b03-99e8-aeb16595b780",
+		"carname": "et",
+		"energylvl": "159.00",
+		"available": false,
+		"commute_id": "292595ae-db19-4178-aca8-3f4097d6bc5b",
+		"parked": false,
+		"parking_spot_id": "a60db1f6-c4a2-4f4b-b831-772f84ec2c2d",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.832802,
+					10.180431
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "6688dbd0-44ed-443e-9fbc-794b17b86873",
+		"carname": "quis",
+		"energylvl": "165.00",
+		"available": false,
+		"commute_id": "44469e5b-396c-44ff-a719-528d739401b4",
+		"parked": true,
+		"parking_spot_id": "3b8d7d30-f499-4f6d-9fdc-a3c0482e57f0",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.873686,
+					10.270189
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "1a498235-251d-45b5-874f-0aa28542f732",
+		"carname": "nobis",
+		"energylvl": "12.00",
+		"available": false,
+		"commute_id": "576faaf3-b5b3-4dcd-916c-1ade1abfd79b",
+		"parked": false,
+		"parking_spot_id": "9500dc00-3a92-4b8e-b46d-81f16045c9af",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.892228,
+					10.211148
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
+	},
+	{
+		"id": "1e257b33-ac8e-4611-9372-adb36fcbd94d",
+		"carname": "quia",
+		"energylvl": "134.00",
+		"available": false,
+		"commute_id": "fb5c05b0-51de-409f-9b47-21a0e68603cb",
+		"parked": false,
+		"parking_spot_id": "4cf3f700-1ed7-4439-baa1-a319a4677cf6",
+		"isdeleted": false,
+		"coords": {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					36.82951,
+					10.15981
+				]
+			},
+			"properties": {
+				"name": "Coors Field"
+			}
+		}
 	}
 ]

@@ -7,9 +7,15 @@ var carSchema = new Schema({
   "position" :{
     "type" : {
       type : String,
-      default: "Point"
+      default: "Feature"
     },
-    "coordinates": [Number]
+    "geometry": {
+      "type" : {
+        type: String,
+        default : "Point"
+      },
+      "coordinates": [Number]
+    }
   },
   "energylvl" : Number,
   "available" : {
@@ -30,4 +36,5 @@ var carSchema = new Schema({
     default : false
   }
 });
+
 mongoose.model('cars',carSchema);

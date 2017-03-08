@@ -9,5 +9,11 @@ router.get('/',function(req,res,next){
       mongoose.model('users').collection.insert(JSON.parse(users));
       res.end();
     });
+    fs.readFile('./data/Car.json',function(err,cars){
+      mongoose.model('cars').collection.insert(JSON.parse(cars));
+      res.end();
+    });
 });
+
+
 module.exports = router;
