@@ -30,6 +30,8 @@ router.get('/commute/:lng/:alt', function(req, res, next) {
 });
 */
 
+
+
 router.get('/user', function(req, res){
   var name = req.query.name;
   mongoose.model('users').findOne({ 'name': name },function(err,users){
