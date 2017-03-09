@@ -3,11 +3,13 @@ var Schema = mongoose.Schema;
 
 
 var commuteSchema = new Schema({
-    "id": String,
     "state": String,
     "cost": Number,
     "Date": Date,
-    "user_id": String,
+    "user_id": {
+      type : Schema.ObjectId,
+      ref : "users"
+    },
     "parked": Boolean,
     "Rating": Number,
     "comments": String,
