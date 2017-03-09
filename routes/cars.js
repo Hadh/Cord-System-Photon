@@ -41,12 +41,7 @@ router.get('/directions',function(req,res,next){
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
        res.json(response.json);
      })
-    // commuteService.getDirections(origin,destination,waypoint).then(function(data){
-    //   console.log(data);
-    //   res.json(data);
-    // },function(err){
-    //   console.error(err);
-    // })
+    
 });
 
 module.exports = router;
