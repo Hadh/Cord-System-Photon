@@ -3,6 +3,8 @@ var googleMapsClient = require('@google/maps').createClient({
   Promise : global.Promise
 });;
 
+var _ = require('underscore');
+
 
 function getDirections(o,d,waypoint){
 
@@ -16,6 +18,17 @@ function getDirections(o,d,waypoint){
     return data;
   });
 }
+
+function routeToGeoJson(route){
+  var path ;
+  if(_.isArray(route.routes[0].legs)) path = route.routes[0].legs[0]
+  else path =  route.routes[0].legs;
+
+  return path;
+}
+
+
 module.exports = {
-  "getDirections" : getDirections
+  "getDirections" : getDirections,
+  "routeToGeoJson" : routeToGeoJson
 }

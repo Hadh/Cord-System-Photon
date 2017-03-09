@@ -3,6 +3,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var carService = require('../services/car.service');
 var commuteService = require('../services/commute.service')
+var Commute = mongoose.model('commutes');
 
 router.get('/', function(req, res, next) {
   mongoose.model('cars').find(function(err,cars){
@@ -39,9 +40,9 @@ router.get('/directions',function(req,res,next){
        lng : 10.148932
      };
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
-       res.json(response.json);
+       res.json(commuteService.routeToGeoJson(response.json));
      })
-    
+
 });
 
 module.exports = router;

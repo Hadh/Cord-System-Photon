@@ -18,8 +18,7 @@ var commuteSchema = new Schema({
         "geometry": {
             "type": String,
             "coordinates": [
-                Number,
-                Number
+                [Number]
             ]
         },
         "properties": {
