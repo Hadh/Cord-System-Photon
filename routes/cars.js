@@ -42,7 +42,6 @@ router.get('/directions',function(req,res,next){
      };
 
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
-       var path = commuteService.routeToGeoJson(response.json);
        var commute = new Commute({
          "state" : "IN_PROGRESS",
          "cost" : 12.0,
@@ -51,16 +50,7 @@ router.get('/directions',function(req,res,next){
          "car_id" : "58c075b5f3da202ade63c384",
          "Rating" : 0,
          "comments" : "",
-         "Path" :{
-           "type" : path.type,
-           "geometry":{
-             "type" : "Line",
-             "coordinates" : path.geometry.coordinates
-           },
-           "properties":{
-             "name" : "Path"
-           }
-         }
+         "Path" : commuteService.routeToGeoJson(response.json)
        });
        commute.save(function(err){console.error(err);});
        res.json(commute);
