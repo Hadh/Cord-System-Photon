@@ -13,6 +13,19 @@ var commuteSchema = new Schema({
     "parked": Boolean,
     "Rating": Number,
     "comments": String,
+    "Path": {
+        "type": String,
+        "geometry": {
+            "type": String,
+            "coordinates": [
+                Number,
+                Number
+            ]
+        },
+        "properties": {
+            "name": String
+        }
+    }
 });
 
 mongoose.model('commutes', commuteSchema);
