@@ -10,16 +10,23 @@ var commuteSchema = new Schema({
       type : Schema.ObjectId,
       ref : "users"
     },
-    "parked": Boolean,
+    "car_id":{
+      type: Schema.ObjectId,
+      ref : "cars"
+    },
     "Rating": Number,
     "comments": String,
     "Path": {
-        "type": String,
+        "type": {
+          type : String,
+          default: "Feature"
+        },
         "geometry": {
-            "type": String,
-            "coordinates": [
-                [Number]
-            ]
+            "type": {
+              type : String,
+              default : "Line"
+            },
+            "coordinates": [[Number]]
         },
         "properties": {
             "name": String
