@@ -1,7 +1,10 @@
-var app = require('express')();
+//var app = require('express')();
 var mongoose = require('mongoose');
 var fs = require('fs');
 var bodyParser = require('body-parser');
+
+var express = require("express");
+var app     = express();
 
 //Connect to the Database and load all models
 mongoose.connect('mongodb://localhost/photon');
@@ -12,11 +15,13 @@ fs.readdirSync(__dirname + '/models').forEach(function(model){
   }
 })
 
+
 //require routes
 var users = require('./routes/users');
 var seeder = require('./routes/seeder');
 var cars = require('./routes/cars');
 
+app.use(express.static(__dirname + '/public'));
 var commutes = require('./routes/commutes');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
