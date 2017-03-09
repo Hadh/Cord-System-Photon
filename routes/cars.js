@@ -2,6 +2,9 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var carService = require('../services/car.service');
+var io = require('socket.io-client');
+
+var socket = io('localhost:5000');
 
 router.get('/', function(req, res, next) {
   mongoose.model('cars').find(function(err,cars){
@@ -52,6 +55,7 @@ router.get('/directions',function(req,res,next){
          "Path" : commuteService.routeToGeoJson(response.json)
        });
        commute.save(function(err){console.error(err);});
+       socket.emit('new_commute',commute);
        res.json(commute);
      })
 });
