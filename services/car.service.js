@@ -15,10 +15,26 @@ function GetNearstCars(lng,lat,radius){
       }
     }
   });
-
+  
+}
+function getCarDetails(carId, callback) {
+  mongoose.model('cars').findOne({
+        "id": carId
+    }, function(err, results) {
+        if (err) {
+            console.log(err);
+        } else {
+            callback({
+                carId: results.id,
+                carname: results.carname,
+                energylvl: results.energylvl,
+                coords: results.coords
+            });
+        }
+    });
 }
 
-
 module.exports = {
-  getGetNearstCars : GetNearstCars
+  getGetNearstCars : GetNearstCars,
+  getCarDetails : getCarDetails
 }

@@ -3,17 +3,78 @@
 <head>
     <meta charset="utf-8"/>
     <title>User  </title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.33.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.33.0/mapbox-gl.css' rel='stylesheet' />
+    <script type="text/javascript" src="../javascripts/geolocation.js"></script>
+    <style>
+    .marker {
+        display: block;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0;
+    }
+    </style>
+    <script type="text/javascript">
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(Position){
+          var lat = Position.coords.latitude;
+          var lng =  Position.coords.longitude;
+          console.log(lat);
+          console.log(lng);
+      },error,options);
+    } else {
+      $(".map").text("Your browser is out of fashion, there\'s no geolocation!");
+    }
+    </script>
 </head>
 <body>
     <h1>Hello User {{users.name}}</h1>
 
     <p>{{users.adress}}</p>
+
+    <button type="button"></button>
     <h4 id="notification">
         <!-- Some info will be displayed here-->
     </h4>
-    <div id="map">
-        <!-- We will load a map here later-->
+    <div id='map' style='width: 500px; height: 400px;'></div>
+    <script>
+    var marker = {
+            "type": "Feature",
+            "properties": {
+                "message": "Baz",
+                "iconSize": [40, 40]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.29223632812499,
+                    -18.28151823530889
+                ]
+            }
+        }
+;
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaGFkaGVtaWhhZGhlbWkiLCJhIjoiY2owMTRqdTRzMDNnNjJxbXk5NmU5aWI4bSJ9.ebwAag3-nOzq0UO4jRlj7g';
+
+    var map = new mapboxgl.Map({
+        container: 'map',
+        center: [-65.017, -16.457],
+        style: 'mapbox://styles/mapbox/dark-v9',
+        zoom: 10
+    });
+    var el = document.createElement('div');
+    el.className = 'marker';
+    el.style.backgroundImage = 'url(https://placekitten.com/g/' + marker.properties.iconSize.join('/') + '/)';
+    el.style.width = marker.properties.iconSize[0] + 'px';
+    el.style.height = marker.properties.iconSize[1] + 'px';
+
+    new mapboxgl.Marker(el, {offset: [-marker.properties.iconSize[0] / 2, -marker.properties.iconSize[1] / 2]})
+       .setLngLat(marker.geometry.coordinates)
+       .addTo(map);
+
+    </script>
     </div>
     <!--Load JavaScripts -->
+
 </body>
 </html>
