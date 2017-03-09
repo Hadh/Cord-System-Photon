@@ -2,8 +2,19 @@
 var mongoose = require('mongoose');
 var fs = require('fs');
 var bodyParser = require('body-parser');
+
 var express = require("express");
 var app     = express();
+
+//Connect to the Database and load all models
+mongoose.connect('mongodb://localhost/photon');
+fs.readdirSync(__dirname + '/models').forEach(function(model){
+  if(~model.indexOf('.js')){
+    require(__dirname + '/models/' + model);
+    console.info(model +' Loaded!');
+  }
+})
+
 
 //require routes
 var users = require('./routes/users');
@@ -15,11 +26,7 @@ var commutes = require('./routes/commutes');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-//Connect to the Database and load all models
-mongoose.connect('mongodb://localhost/photon');
-fs.readdirSync(__dirname + '/models').forEach(function(model){
-  if(~model.indexOf('.js')) require(__dirname + '/models/' + model)
-})
+
 
 //routes
 app.use('/users', users);

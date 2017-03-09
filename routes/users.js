@@ -8,6 +8,27 @@ router.get('/', function(req, res, next) {
     res.json(users);
   })
 });
+/*
+router.get('/commute/:lng/:alt', function(req, res, next) {
+    var user_pos = [req.params.lng,req.params.alt];
+    var commutes = [];
+
+    mongoose.model('commutes').find({
+
+        location:
+            { $near :
+                {
+                    $geometry: { type: "Point",  coordinates: [ -73.9667, 40.78 ] },
+                    $maxDistance: 5000
+                }
+            }
+
+
+    },function(err,users){
+        res.json(users);
+    })
+});
+*/
 
 router.get('/user', function(req, res){
   var name = req.query.name;
