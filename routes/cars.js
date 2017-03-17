@@ -36,8 +36,8 @@ router.post('/directions',function(req,res,next){
       lat :36.849731,
       lng: 10.153379
     };
-    var destination = req.body.destination
-    var waypoint = req.body.user
+    var destination = JSON.parse(req.body.destination)
+    var waypoint = JSON.parse(req.body.user)
     console.log(destination, waypoint);
 
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
