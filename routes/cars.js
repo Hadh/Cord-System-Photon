@@ -57,6 +57,8 @@ router.post('/directions',function(req,res,next){
          res.json(commute);
        });
 
+     },function(error){
+       console.error(error);
      })
 });
 
