@@ -38,6 +38,7 @@ router.post('/directions',function(req,res,next){
     };
     var destination = req.body.destination
     var waypoint = req.body.user
+    console.log(destination, waypoint);
 
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
        var commute = new Commute({
