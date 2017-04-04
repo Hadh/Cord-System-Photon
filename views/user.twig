@@ -24,12 +24,16 @@
       $(".map").text("Your browser is out of fashion, there\'s no geolocation!");
     }
 </script>
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
 </head>
 <body>
   <h1>Hello User {{users.name}}</h1>
 
 <p>{{users.adress}}</p>
-  <div id='map' style='width: 500px; height: 400px;'></div>
+  <div id='map'></div>
   <script>
     L.mapbox.accessToken = 'pk.eyJ1IjoiaGFkaGVtaWhhZGhlbWkiLCJhIjoiY2owMTRqdTRzMDNnNjJxbXk5NmU5aWI4bSJ9.ebwAag3-nOzq0UO4jRlj7g';
     var map = L.mapbox.map('map', 'mapbox.streets')

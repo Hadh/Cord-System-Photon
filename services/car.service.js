@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
 
-
 function GetNearstCars(lng,lat,radius){
   var error;
   var cars ;
@@ -15,7 +14,7 @@ function GetNearstCars(lng,lat,radius){
       }
     }
   });
-  
+
 }
 function getCarDetails(carId, callback) {
   mongoose.model('cars').findOne({
@@ -33,7 +32,6 @@ function getCarDetails(carId, callback) {
         }
     });
 }
-
 module.exports = {
   getGetNearstCars : GetNearstCars,
   getCarDetails : getCarDetails
