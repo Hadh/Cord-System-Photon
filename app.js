@@ -1,6 +1,7 @@
 //var app = require('express')();
 var mongoose = require('mongoose');
 var fs = require('fs');
+var cors = require('cors');
 var bodyParser = require('body-parser');
 
 var express = require("express");
@@ -15,25 +16,24 @@ fs.readdirSync(__dirname + '/models').forEach(function(model){
   }
 })
 
-
 //require routes
 var users = require('./routes/users');
 var seeder = require('./routes/seeder');
 var cars = require('./routes/cars');
+var schedules = require('./routes/schedules');
 
 app.use(express.static(__dirname + '/public'));
 var commutes = require('./routes/commutes');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
+app.use(cors());
 
 
 //routes
 app.use('/users', users);
 app.use('/seeder', seeder);
 app.use('/cars', cars);
-
-
+app.use('/schedules', schedules);
 app.use('/commutes', commutes);
 
 app.listen(4000, function(){
