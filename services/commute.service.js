@@ -22,6 +22,7 @@ function getDirections(o,d,waypoint){
 function routeToGeoJson(route){
   var path ;
   var coordinates=[];
+  console.log('route : ',route)
   if(_.isArray(route.routes[0].legs)) path = route.routes[0].legs[0]
   else path =  route.routes[0].legs;
 
