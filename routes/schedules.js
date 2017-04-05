@@ -7,7 +7,7 @@ var Schedule = require('../models/schedule');
 
 /* GET all schedules listing. */
 router.get('/', function(req, res, next) {
-  mongoose.model('schedules').find(function(err,schedules){
+  mongoose.model('Schedule').find(function(err,schedules){
     res.json(schedules);
   })
 });
@@ -15,7 +15,15 @@ router.get('/', function(req, res, next) {
 /*GETs a schedule based on id*/
 router.get('/schedule/:id', function(req, res){
   var scheduleid = req.params.id;
-  mongoose.model('schedules').findOne({ '_id': scheduleid },function(err,schedule){
+  mongoose.model('Schedule').findOne({ '_id': scheduleid },function(err,schedule){
+    res.json(schedule);
+  });
+});
+
+/*GETs a schedule based on user id*/
+router.get('/user/:id', function(req, res){
+  var user_id = req.params.id;
+  mongoose.model('Schedule').find({ 'user_id': user_id },function(err,schedule){
     res.json(schedule);
   });
 });
