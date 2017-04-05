@@ -1,14 +1,14 @@
-//var app = require('express')();
+
 var mongoose = require('mongoose');
 var fs = require('fs');
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var express = require("express");
 var app = express();
-// view engine setup
 
+// view engine setup
 //app.set('views', path.join(__dirname, 'views'));
-//app.set('view engine', 'twig');
+app.set('view engine', 'twig');
 //Connect to the Database and load all models
 mongoose.connect('mongodb://localhost/photon');
 fs.readdirSync(__dirname + '/models').forEach(function(model){
