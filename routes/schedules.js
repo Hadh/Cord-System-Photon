@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 var Schedule = require('../models/schedule');
 
 
-
 /* GET all schedules listing. */
 router.get('/', function(req, res, next) {
   mongoose.model('Schedule').find(function(err,schedules){
@@ -12,6 +11,7 @@ router.get('/', function(req, res, next) {
   })
 });
 
+/*Deleteing a schedule */
 router.delete('/:id',function(req,res){
     mongoose.model('Schedule').findOneAndRemove({'_id': req.params.id},function(err,msg){
         if(err){
@@ -23,12 +23,28 @@ router.delete('/:id',function(req,res){
     });
 });
 
-/*GETs a schedule based on id*/
+/*GETs a schedule based on id to be used for update*/
 router.get('/schedule/:id', function(req, res){
   var scheduleid = req.params.id;
   mongoose.model('Schedule').findOne({ '_id': scheduleid },function(err,schedule){
     res.json(schedule);
   });
+});
+
+/*Updates a schdule*/
+router.put('/schedule/:id',function(req,res){
+    var id = req.params.id;
+    var from = req.body.from;
+    var to = req.body.to;
+    var date = req.body.date;
+    mongoose.model('Schedule').findOneAndUpdate({'_id': id},{$set :{'from':from, 'to':to ,'date':date }},{new: true},function(err,schedule){
+        if(err){
+            console.log(err);
+        }else {
+            console.log("Schedule Updated");
+            res.status(200).send();
+        }
+    });
 });
 
 /*GETs a schedule based on user id*/
