@@ -12,6 +12,17 @@ router.get('/', function(req, res, next) {
   })
 });
 
+router.delete('/:id',function(req,res){
+    mongoose.model('Schedule').findOneAndRemove({'_id': req.params.id},function(err,msg){
+        if(err){
+            console.log(err);
+        } else{
+        console.log("Schedule deleted");
+        res.status(200).send();
+        }
+    });
+});
+
 /*GETs a schedule based on id*/
 router.get('/schedule/:id', function(req, res){
   var scheduleid = req.params.id;
@@ -52,10 +63,8 @@ router.post('/user/:id/schedule',function (req,res) {
           } else {
               console.log("Schedule created");
           }
-
       });
     });
-
 });
 
 module.exports = router;
