@@ -12,6 +12,8 @@ var userSchema = new Schema({
   "type": String,
   "plan_id": Number,
   "isdeleted": Boolean,
+    "commute_id":Schema.ObjectId,
+    "shared":Boolean,
   // "schedule": [
   //   {
   //     "date": "2017-05-31T18:39:10.733Z"
