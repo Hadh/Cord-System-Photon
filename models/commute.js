@@ -6,10 +6,10 @@ var commuteSchema = new Schema({
     "state": String,
     "cost": Number,
     "Date": Date,
-    "user_id": {
+    "user_id": [{
       type : Schema.ObjectId,
       ref : "users"
-    },
+    }],
     "car_id":{
       type: Schema.ObjectId,
       ref : "cars"

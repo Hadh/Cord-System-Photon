@@ -53,7 +53,7 @@ router.post('/directions',function(req,res,next){
        });
        commute.save(function(err){
          if(err) console.error(err);
-         socket.emit('new_commute',commute);
+         socket.emit('newcommute',commute);
          res.json(commute);
        });
 

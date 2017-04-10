@@ -5,7 +5,7 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var users = mongoose.model('users');
-
+var commutes = mongoose.model('commutes');
 /* GET users listing. */
 router.get('/', function(req, res, next) {
 
@@ -52,5 +52,38 @@ router.put('/update/:id/:state', function(req, res, next) {
             }
         }
     });
+});
+router.put('/update/newCustomer/:id/:customer', function(req, res, next) {
+
+    var id = req.params.id;
+    var id_customer = req.params.customer;
+    users.findById(id, function (err, user) {
+
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            //console.log("state : ",req.params.state);
+            if(user.type=="shared")
+            {
+                commutes.findById(user.commute_id,function (req,commute) {
+                    console.log(user.commute_id);
+                    console.log(user._id);
+                    console.log(id_customer);
+                    console.log(commute);
+                    commute.user_id.push(id_customer);
+                    commute.type = "notShared";
+                    commute.save(function (err, commute) {
+                        if (err) {
+                            res.status(500).send(err)
+                        }
+                        res.send(commute);
+                    });
+                })
+
+            }
+        }
+    });
+
+
 });
 module.exports = router;
