@@ -1,6 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
+var User = require('../models/user');
+var bcrypt = require ('bcryptjs');
+var jwt = require('jsonwebtoken');
+var auth = require('../routes/auth');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -54,6 +58,49 @@ router.get('/user/:id/schedule',function(req,res){
         res.json(user);
     });
 });
+
+
+router.post('/register',function(req,res){
+    var user = new User({
+        name : req.body.name,
+        username: req.body.username,
+        email : req.body.email,
+        password : bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(10)),
+        adress : req.body.adress,
+        type : req.body.type
+    });
+    user.save(function(err,user){
+        if(err){
+            res.send(err);
+        } else {
+            res.send(user);
+        }
+    });
+});
+
+router.post('/login',function(req,res){
+    User.findOne({email:req.body.email},function (err,user){
+        if(err){
+            res.send(err);
+        } if(!user){
+            res.status(401).json(user);
+        } else {
+            if(bcrypt.compareSync(req.body.password, user.password)){
+             console.log('User found',user);
+var token = jwt.sign({email:user.email}, 'hdmi',{expiresIn:3600});
+                res.status(200).json({success : true, token:token});
+            } else {
+                res.status(401).json('Unauthorized');
+            }
+        }
+    });
+});
+
+router.get('/profile',auth.authenticate,function(req,res){
+        res.json({msg:'Got profile'});
+        console.log("Got profile");
+});
+
 /* POSTS a schedule for a specific user*/
 /*router.post('/user/:id/schedule',function (req,res) {
     var userid = req.params.id;

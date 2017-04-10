@@ -4,6 +4,7 @@ var fs = require('fs');
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var express = require("express");
+var passport = require('passport');
 var app = express();
 
 // view engine setup
@@ -29,7 +30,8 @@ var commutes = require('./routes/commutes');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
-
+app.use(passport.initialize());
+app.use(passport.session());
 
 //routes
 app.use('/users', users);
