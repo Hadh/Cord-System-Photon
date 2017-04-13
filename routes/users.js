@@ -81,14 +81,14 @@ router.post('/register',function(req,res){
 router.post('/login',function(req,res){
     User.findOne({email:req.body.email},function (err,user){
         if(err){
-            res.send(err);
+            res.status(500).json({error: err});
         } if(!user){
-            res.status(401).json(user);
+            res.status(401).json({error: 'User not found'});
         } else {
             if(bcrypt.compareSync(req.body.password, user.password)){
              console.log('User found',user);
-var token = jwt.sign({email:user.email}, 'hdmi',{expiresIn:3600});
-                res.status(200).json({success : true, token:token});
+             var token = jwt.sign({email:user.email}, 'hdmi',{expiresIn:3600});
+                res.status(200).json({success : true, token:token, user : user});
             } else {
                 res.status(401).json('Unauthorized');
             }

@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var Schedule = require('../models/schedule');
-
+var auth = require('../routes/auth');
 
 /* GET all schedules listing. */
 router.get('/', function(req, res, next) {
@@ -48,7 +48,7 @@ router.put('/schedule/:id',function(req,res){
 });
 
 /*GETs a schedule based on user id*/
-router.get('/user/:id', function(req, res){
+router.get('/user/:id',auth.authenticate, function(req, res){
   var user_id = req.params.id;
   mongoose.model('Schedule').find({ 'user_id': user_id },function(err,schedule){
     res.json(schedule);
