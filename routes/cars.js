@@ -6,7 +6,7 @@ var carService = require('../services/car.service');
 var io = require('socket.io-client');
 var commuteService = require('../services/commute.service')
 
-var socket = io('localhost:5000');
+var socket = io.connect('http://localhost:5000');
 
 router.get('/', function(req, res, next) {
   mongoose.model('cars').find(function(err,cars){
@@ -32,12 +32,14 @@ router.get('/near',function (req,res,next) {
 
 router.post('/directions',function(req,res,next){
 
+
     var origin = {
       lat :36.849731,
       lng: 10.153379
     };
-    var destination = JSON.parse(req.body.destination)
-    var waypoint = JSON.parse(req.body.user)
+    console.log('dest >>>>>>>>>>',req.body.destination)
+    var destination = req.body.destination
+    var waypoint = req.body.user
     console.log(destination, waypoint);
 
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
