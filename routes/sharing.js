@@ -8,6 +8,7 @@ var users = mongoose.model('users');
 var commutes = mongoose.model('commutes');
 var schedules = mongoose.model('Schedule');
 var moment = require('moment');
+var momentCountdown= require('moment-countdown');
 /* GET users listing. */
 router.get('/', function (req, res, next) {
 
@@ -110,7 +111,7 @@ router.delete('/delete/:id/:id_user', function (req, res, next) {
                             reject(err);
                         } else {
                             console.log("Schedule Updated");
-                             resolve(schedule);
+                            resolve(schedule);
                         }
                     });
                 }
@@ -127,15 +128,53 @@ router.delete('/delete/:id/:id_user', function (req, res, next) {
         res.status(200).send();
     })
 });
-/*
- mongoose.model('Schedule').findOneAndUpdate({'_id': id},{$set :{'from':from, 'to':to ,'date':date }},{new: true},function(err,schedule){
- if(err){
- console.log(err);
- }else {
- console.log("Schedule Updated");
- res.status(200).send();
- }
- });
- */
+router.get('/getDistance/:longitude_car/:latitude_car/:longitude_user/:latitude_user', function (req, res, next) {
+    var longitude_car = req.params.longitude_car;
+    var latitude_car = req.params.latitude_car;
+
+    var longitude_user = req.params.longitude_user;
+    var latitude_user = req.params.latitude_user;
+    var distance = getDistanceFromLatLonInKm(latitude_car, longitude_car, latitude_user, longitude_user);
+    console.log("distance", distance);
+
+    res.json(distance);
+});
+router.get('/countdown/:time', function (req, res, next) {
+    var time = req.params.time;
+   var sec = moment.duration(15000).seconds();
+    var countdown ={
+        "second": sec
+    };
+    var count=0;
+     var fromNow=moment("1982-05-25").countdown().toString();
+     console.log("time",fromNow);
+    /*var refreshId = setInterval(function() {
+
+        console.log(sec - count);
+        count++;
+        if (sec - count == 0) {
+            clearInterval(refreshId);
+        }
+    }, 1000);*/
+    res.json(countdown);
+});
+
 
 module.exports = router;
+function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
+    var R = 6371; // Radius of the earth in km
+    var dLat = deg2rad(lat2 - lat1);  // deg2rad below
+    var dLon = deg2rad(lon2 - lon1);
+    var a =
+            Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2)
+        ;
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    var d = R * c; // Distance in km
+    return d;
+}
+
+function deg2rad(deg) {
+    return deg * (Math.PI / 180)
+}
