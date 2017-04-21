@@ -19,7 +19,7 @@ router.get('/near',function (req,res,next) {
   var lng = req.query.lng;
   console.log('lat', lat);
   console.log('lng', lng);
-  carService.getGetNearstCars(lng,lat,2000).then(function(data){
+  carService.getGetNearstCars(lat,lng,2000).then(function(data){
     //console.info(data);
     res.json(data.slice(0,3));
   },function(err){
@@ -32,15 +32,15 @@ router.get('/near',function (req,res,next) {
 
 router.post('/directions',function(req,res,next){
 
-
+    var car_id = req.body.origin.id
     var origin = {
-      lat :36.849731,
-      lng: 10.153379
+      lat : req.body.origin.coords[0],
+      lng :  req.body.origin.coords[1]
     };
-    console.log('dest >>>>>>>>>>',req.body.destination)
+    console.log('dest >>>>>>>>>>',req.body.origin.position)
     var destination = req.body.destination
     var waypoint = req.body.user
-    console.log(destination, waypoint);
+
 
      commuteService.getDirections(origin,destination,waypoint).asPromise().then(function(response){
        var commute = new Commute({
@@ -48,7 +48,7 @@ router.post('/directions',function(req,res,next){
          "cost" : 12.0,
          "Date" : new Date().toISOString(),
          "user_id" : "58c075b5f3da202ade63c3e8",
-         "car_id" : "58c075b5f3da202ade63c384",
+         "car_id" : car_id,
          "Rating" : 0,
          "comments" : "",
          "Path" : commuteService.routeToGeoJson(response.json)
