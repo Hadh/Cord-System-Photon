@@ -181,21 +181,26 @@ router.get('/countdown/:time', function (req, res, next) {
 router.get('/notify/:id_user', function (req, res, next) {
     var nb_notif = 0;
     var id_user = req.params.id_user;
-    users.findById(id_user, function (err, user) {
-        schedules.findById(user.commute_id, function (err, schedule) {
-            if (schedule.user_id.length == 0) {
-                nb_notif = 0;
-                res.json(nb_notif);
-            }
-            else {
-                nb_notif = schedule.user_id.length - 1;
 
-                res.json(nb_notif);
-            }
+    schedules.find(function (err,schedules) {
+        schedules.forEach(function (data) {
+            data.user_id.forEach(function (data_id) {
+                if(data_id==id_user)
+                {
+                    if (data.user_id.length == 0) {
+                        nb_notif = 0;
+                        res.json(nb_notif);
+                    }
+                    else {
+                        nb_notif = data.user_id.length - 1;
+                        res.json(nb_notif);
+                    }
+                }
+            })
 
-        });
+        })
+
     });
-
 });
 
 
