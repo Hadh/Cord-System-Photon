@@ -8,8 +8,31 @@ var users = mongoose.model('users');
 var commutes = mongoose.model('commutes');
 var schedules = mongoose.model('Schedule');
 var moment = require('moment');
-var momentCountdown= require('moment-countdown');
+var momentCountdown = require('moment-countdown');
 /* GET users listing. */
+
+router.get('/place', function (req, res, next) {
+
+    var nb_place_list = [];
+    var schedules_list = [];
+    var nb_place=0;
+    schedules.find(function (err, schedules) {
+
+        schedules_list = schedules;
+        //res.json(schedules_list);
+        schedules_list.forEach(function (data, index) {
+            console.log("nb place :",4 - data.user_id.length);
+            nb_place=4 - data.user_id.length;
+            nb_place_list.push(nb_place);
+
+        });
+        console.log(nb_place_list);
+        res.json(nb_place_list);
+
+    });
+
+});
+
 router.get('/', function (req, res, next) {
 
     users.find(function (err, users) {
@@ -20,9 +43,6 @@ router.get('/', function (req, res, next) {
 router.get('/available', function (req, res, next) {
     var now = moment().format();
     var hour = moment().add(1, 'month').format();
-    //console.log(now);
-    //console.log(hour);
-
 
     schedules.find({"date": {"$gte": now, "$lte": hour}}, function (err, scheduleDate) {
         res.json(scheduleDate);
@@ -141,22 +161,41 @@ router.get('/getDistance/:longitude_car/:latitude_car/:longitude_user/:latitude_
 });
 router.get('/countdown/:time', function (req, res, next) {
     var time = req.params.time;
-   var sec = moment.duration(15000).seconds();
-    var countdown ={
+    var sec = moment.duration(15000).seconds();
+    var countdown = {
         "second": sec
     };
-    var count=0;
-     var fromNow=moment("1982-05-25").countdown().toString();
-     console.log("time",fromNow);
+    var count = 0;
+    var fromNow = moment("1982-05-25").countdown().toString();
+    console.log("time", fromNow);
     /*var refreshId = setInterval(function() {
 
-        console.log(sec - count);
-        count++;
-        if (sec - count == 0) {
-            clearInterval(refreshId);
-        }
-    }, 1000);*/
+     console.log(sec - count);
+     count++;
+     if (sec - count == 0) {
+     clearInterval(refreshId);
+     }
+     }, 1000);*/
     res.json(countdown);
+});
+router.get('/notify/:id_user', function (req, res, next) {
+    var nb_notif = 0;
+    var id_user = req.params.id_user;
+    users.findById(id_user, function (err, user) {
+        schedules.findById(user.commute_id, function (err, schedule) {
+            if (schedule.user_id.length == 0) {
+                nb_notif = 0;
+                res.json(nb_notif);
+            }
+            else {
+                nb_notif = schedule.user_id.length - 1;
+
+                res.json(nb_notif);
+            }
+
+        });
+    });
+
 });
 
 

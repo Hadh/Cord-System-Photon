@@ -73,7 +73,7 @@ router.post('/user/:id/schedule',function (req,res) {
           date: date,
           user_id: userid
       });
-      newschedule.save(function(err,resp){
+      newschedule.save(function(err,res){
           if(err){
               console.log(err);
           } else {
