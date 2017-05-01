@@ -11,26 +11,30 @@ var moment = require('moment');
 var momentCountdown = require('moment-countdown');
 /* GET users listing. */
 
-router.get('/place', function (req, res, next) {
 
+router.get('/place/:id', function (req, res, next) {
+    var id_user = req.params.id;
     var nb_place_list = [];
     var schedules_list = [];
-    var nb_place=0;
-    schedules.find(function (err, schedules) {
+    var nb_place = 0;
+    var now = moment().format();
+    var hour = moment().add(1, 'month').format();
 
-        schedules_list = schedules;
-        //res.json(schedules_list);
-        schedules_list.forEach(function (data, index) {
-            console.log("nb place :",4 - data.user_id.length);
-            nb_place=4 - data.user_id.length;
+    schedules.find({"date": {"$gte": now, "$lte": hour}}, function (err, scheduleDate) {
+        scheduleDate.forEach(function (data) {
+            if (data.user_id[0] != id_user) {
+                schedules_list.push(data);
+            }
+
+        });
+        schedules_list.forEach(function (data) {
+            //console.log("nb place :",4 - data.user_id.length);
+            nb_place = 4 - data.user_id.length;
             nb_place_list.push(nb_place);
 
         });
-        console.log(nb_place_list);
         res.json(nb_place_list);
-
     });
-
 });
 
 router.get('/', function (req, res, next) {
@@ -50,17 +54,26 @@ router.get('/available', function (req, res, next) {
 
 
 });
-router.get('/:id', function (req, res, next) {
-    users.findById(req.params.id, function (err, users) {
-        // Handle any possible database errors
-        if (err) {
-            res.status(500).send(err);
-        } else {
-            res.json(users);
-        }
 
+
+router.get('/notify/:id', function (req, res, next) {
+    var nb_notif = 0;
+    var id_user = req.params.id;
+
+    var now = moment().format();
+    var hour = moment().add(1, 'month').format();
+
+    schedules.find({"date": {"$gte": now, "$lte": hour}}, function (err, scheduleDate) {
+        scheduleDate.forEach(function (data) {
+            if (data.user_id[0] == id_user) {
+                    nb_notif = data.user_id.length - 1;
+                    console.log("nb notif : ", nb_notif);
+                }
+        });
+        res.json(nb_notif);
     });
 });
+
 router.put('/addCustomer/:id_schedule/:customer', function (req, res, next) {
 
     var schedule_id = req.params.id_schedule;
@@ -148,6 +161,8 @@ router.delete('/delete/:id/:id_user', function (req, res, next) {
         res.status(200).send();
     })
 });
+
+
 router.get('/getDistance/:longitude_car/:latitude_car/:longitude_user/:latitude_user', function (req, res, next) {
     var longitude_car = req.params.longitude_car;
     var latitude_car = req.params.latitude_car;
@@ -158,49 +173,6 @@ router.get('/getDistance/:longitude_car/:latitude_car/:longitude_user/:latitude_
     console.log("distance", distance);
 
     res.json(distance);
-});
-router.get('/countdown/:time', function (req, res, next) {
-    var time = req.params.time;
-    var sec = moment.duration(15000).seconds();
-    var countdown = {
-        "second": sec
-    };
-    var count = 0;
-    var fromNow = moment("1982-05-25").countdown().toString();
-    console.log("time", fromNow);
-    /*var refreshId = setInterval(function() {
-
-     console.log(sec - count);
-     count++;
-     if (sec - count == 0) {
-     clearInterval(refreshId);
-     }
-     }, 1000);*/
-    res.json(countdown);
-});
-router.get('/notify/:id_user', function (req, res, next) {
-    var nb_notif = 0;
-    var id_user = req.params.id_user;
-
-    schedules.find(function (err,schedules) {
-        schedules.forEach(function (data) {
-            data.user_id.forEach(function (data_id) {
-                if(data_id==id_user)
-                {
-                    if (data.user_id.length == 0) {
-                        nb_notif = 0;
-                        res.json(nb_notif);
-                    }
-                    else {
-                        nb_notif = data.user_id.length - 1;
-                        res.json(nb_notif);
-                    }
-                }
-            })
-
-        })
-
-    });
 });
 
 
