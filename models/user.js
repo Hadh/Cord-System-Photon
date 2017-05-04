@@ -10,6 +10,7 @@ var userSchema = new Schema({
   "password": String,
   "adress": String,
   "type": String,
+  "invited": String,
   "plan_id": Number,
   "isdeleted": Boolean,
     "commute_id":Schema.ObjectId,

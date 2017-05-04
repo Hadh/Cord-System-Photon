@@ -38,7 +38,7 @@ router.get('/user/:id', function(req, res){
   var userid = req.params.id;
   mongoose.model('users').findOne({ '_id': userid },function(err,user){
     res.json(user);
-    res.render('user.twig',{users:user});
+    //res.render('user.twig',{users:user});
   });
 });
 
@@ -93,6 +93,86 @@ router.post('/login',function(req,res){
                 res.status(401).json('Unauthorized');
             }
         }
+    });
+});
+/*registers a user with an invitation from another user */
+router.post('/invite/:userid',function(req,res){
+    var user = new User({
+        name : req.body.name,
+        username: req.body.username,
+        email : req.body.email,
+        password : bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(10)),
+        adress : req.body.adress,
+        type : req.body.type,
+        invited : req.params.userid
+    });
+    user.save(function(err,user){
+        if(err){
+            console.log(err);
+            res.send(err);
+        } else {
+            res.send(user);
+        }
+    });
+
+});
+
+/** check if the user has the right for a free ride */
+router.get('/checkinvite/:userid',function(req,res){
+    var userid = req.params.userid;
+    mongoose.model('users').findOne({'invited': userid} ,function(err,user){
+        if(user){
+            res.json(user);
+        } else if(!user){
+            res.json({msg:'No Free Rides'});
+        } else if(err){
+            console.log(err);
+        }
+
+    });
+});
+
+/** returns number of invited attr of a given id */
+router.get('/numberinvite/:userid',function(req,res){
+    var userid = req.params.userid;
+    var numberInvites = [];
+    mongoose.model('users').find({'invited': userid} ,function(err,user){
+        if(user){
+            console.log(user);
+            user.forEach(function(u) {
+            numberInvites.push(u.invited);
+            });
+            console.log(numberInvites.length);
+            console.log(numberInvites);
+            res.json(numberInvites.length);
+
+        } else if(!user){
+            res.json({msg:'No invtatiion: 0 free rides'});
+        } else if(err){
+            console.log(err);
+        }
+
+    });
+});
+
+/** removes id from invited - substracts a free ride */
+router.get('/substract/:userid',function(req,res){
+    var userid = req.params.userid;
+    var numberInvites = [];
+    mongoose.model('users').find({'invited': userid} ,function(err,user){
+        if(user){
+            console.log(user);
+            // edit obj 1 to delete invited
+            mongoose.model('users').findOneAndUpdate({'invited': userid}, {'invited': 0}, {upsert:true}, function(err, doc){
+                if (err) return res.send(500, { error: err });
+                return res.send("succesfully saved");
+            });
+        } else if(!user){
+            res.json({msg:'No invtatiion: 0 free rides'});
+        } else if(err){
+            console.log(err);
+        }
+
     });
 });
 
