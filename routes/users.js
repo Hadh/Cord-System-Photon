@@ -6,6 +6,43 @@ var bcrypt = require ('bcryptjs');
 var jwt = require('jsonwebtoken');
 var auth = require('../routes/auth');
 
+
+
+
+
+
+router.get('/:id', function(req, res){
+    var userid = req.params.id;
+    mongoose.model('users').findOne({ '_id': userid },function(err,user){
+        res.json(user);
+        //res.render('user.twig',{users:user});
+    });
+});
+
+
+
+router.put('/update/:id/:name/:email/:adress', function(req, res){
+    var userid = req.params.id;
+    var name = req.params.name;
+    var email = req.params.email;
+    var adress = req.params.adress;
+    mongoose.model('users').findOne({ '_id': userid },function(err,user){
+        user.name= name;
+        user.email=email;
+        user.adress=adress;
+
+        user.save(function (err, user) {
+            if (err) {
+                res.status(500).send(err)
+            }
+            res.send(user);
+        });
+
+        //res.render('user.twig',{users:user});
+    });
+});
+
+
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   mongoose.model('users').find(function(err,users){
