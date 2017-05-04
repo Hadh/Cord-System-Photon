@@ -23,6 +23,7 @@ var userSchema = new Schema({
   //     "date": "2017-07-22T22:17:12.147Z"
   //   }
   // ]
+
 });
-var User = mongoose.model('users',userSchema);
+var User = mongoose.model('users', userSchema);
 module.exports = User;

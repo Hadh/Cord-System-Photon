@@ -14,10 +14,11 @@ function GetNearstCars(lng,lat,radius){
         },
         $maxDistance: radius
       }
-    }
+    },
+    "available" : true
   });
-
 }
+
 function getCarDetails(carId, callback) {
   mongoose.model('cars').findOne({
         "id": carId
