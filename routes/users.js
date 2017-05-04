@@ -165,7 +165,7 @@ router.get('/substract/:userid',function(req,res){
             // edit obj 1 to delete invited
             mongoose.model('users').findOneAndUpdate({'invited': userid}, {'invited': 0}, {upsert:true}, function(err, doc){
                 if (err) return res.send(500, { error: err });
-                return res.send("succesfully saved");
+                return res.send("succesfully substracted");
             });
         } else if(!user){
             res.json({msg:'No invtatiion: 0 free rides'});
