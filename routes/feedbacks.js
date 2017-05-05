@@ -48,7 +48,7 @@ router.get('/:id', function(req, res){
   });
 });
 
-/*GETs a schedule based on user id*/
+
 router.get('/user/:id', function(req, res){
   var user_id = req.params.id;
   mongoose.model('feedbacks').find({ 'user_id': user_id },function(err,feedback){
