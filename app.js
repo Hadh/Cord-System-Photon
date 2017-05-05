@@ -26,6 +26,9 @@ var cars = require('./routes/cars');
 var schedules = require('./routes/schedules');
 var sharing = require('./routes/sharing');
 var feedbacks = require('./routes/feedbacks');
+var plans = require('./routes/plans');
+
+
 app.use(express.static(__dirname + '/public'));
 var commutes = require('./routes/commutes');
 app.use(bodyParser.json());
@@ -41,6 +44,8 @@ app.use('/schedules', schedules);
 app.use('/commutes', commutes);
 app.use('/sharing', sharing);
 app.use('/feedbacks', feedbacks);
+app.use('/plans', plans);
+
 app.listen(4000, function(){
   console.log('server started on port 4000');
 
